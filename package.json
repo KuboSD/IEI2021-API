@@ -1,0 +1,24 @@
+{
+  "name": "iei2021-api",
+  "version": "1.0.0",
+  "description": "API to manage libraries in SPAIN for IEI-2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuboSD/IEI2021-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KuboSD/IEI2021-API/issues"
+  },
+  "homepage": "https://github.com/KuboSD/IEI2021-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
