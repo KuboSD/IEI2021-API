@@ -1,2 +1,0 @@
-let nombre
-let codigo

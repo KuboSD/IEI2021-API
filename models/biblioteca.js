@@ -1,9 +1,0 @@
-let nombre
-let tipo
-let direccion
-let codigoPostal
-let longitud
-let latitud
-let telefono
-let email
-let descripcion
