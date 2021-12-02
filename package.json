@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/KuboSD/IEI2021-API#readme",
   "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mysql": "^2.18.1",

@@ -2,6 +2,7 @@ const { query } = require("express");
 const mysql = require("mysql");
 const dbConfig = require("./db.config");
 const jsonExtractor = require('./extractores/JSONtoSQL')
+const queryToLocalidades = require('./extractores/queryLocalidad')
 let queryToDb;
 
 // Create a connection to the database
@@ -17,7 +18,7 @@ const connection = mysql.createPool({
 connection.getConnection(error => {
     if (error) throw error;
     console.log("Successfully connected to the database.");
-    queryToDb = jsonExtractor.readJson();
+    queryToDb = queryToLocalidades.insertarLocalidades();
     for(let i in queryToDb){
       connection.query(queryToDb[i], (err) => {
         if(err){

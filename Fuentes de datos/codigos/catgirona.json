@@ -1,0 +1,1342 @@
+{
+  "Hoja1": [
+    {
+      "CPRO": "GIRONA",
+      "Column2": null,
+      "Column3": null,
+      "Column4": null
+    },
+    {
+      "CPRO": "CPRO",
+      "Column2": "CMUN",
+      "Column3": "DC",
+      "Column4": "NOMBRE"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "001",
+      "Column3": "0",
+      "Column4": "Agullana"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "002",
+      "Column3": "5",
+      "Column4": "Aiguaviva"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "003",
+      "Column3": "1",
+      "Column4": "Albanyà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "004",
+      "Column3": "6",
+      "Column4": "Albons"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "006",
+      "Column3": "2",
+      "Column4": "Alp"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "007",
+      "Column3": "8",
+      "Column4": "Amer"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "008",
+      "Column3": "4",
+      "Column4": "Anglès"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "009",
+      "Column3": "7",
+      "Column4": "Arbúcies"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "010",
+      "Column3": "1",
+      "Column4": "Argelaguer"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "011",
+      "Column3": "8",
+      "Column4": "Armentera, L'"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "012",
+      "Column3": "3",
+      "Column4": "Avinyonet de Puigventós"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "015",
+      "Column3": "7",
+      "Column4": "Banyoles"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "016",
+      "Column3": "0",
+      "Column4": "Bàscara"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "013",
+      "Column3": "9",
+      "Column4": "Begur"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "018",
+      "Column3": "2",
+      "Column4": "Bellcaire d'Empordà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "019",
+      "Column3": "5",
+      "Column4": "Besalú"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "020",
+      "Column3": "9",
+      "Column4": "Bescanó"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "021",
+      "Column3": "6",
+      "Column4": "Beuda"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "022",
+      "Column3": "1",
+      "Column4": "Bisbal d'Empordà, La"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "234",
+      "Column3": "8",
+      "Column4": "Biure"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "023",
+      "Column3": "7",
+      "Column4": "Blanes"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "029",
+      "Column3": "3",
+      "Column4": "Boadella i les Escaules"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "024",
+      "Column3": "2",
+      "Column4": "Bolvir"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "025",
+      "Column3": "5",
+      "Column4": "Bordils"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "026",
+      "Column3": "8",
+      "Column4": "Borrassà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "027",
+      "Column3": "4",
+      "Column4": "Breda"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "028",
+      "Column3": "0",
+      "Column4": "Brunyola i Sant Martí Sapresa"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "031",
+      "Column3": "4",
+      "Column4": "Cabanelles"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "030",
+      "Column3": "7",
+      "Column4": "Cabanes"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "032",
+      "Column3": "9",
+      "Column4": "Cadaqués"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "033",
+      "Column3": "5",
+      "Column4": "Caldes de Malavella"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "034",
+      "Column3": "0",
+      "Column4": "Calonge i Sant Antoni"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "035",
+      "Column3": "3",
+      "Column4": "Camós"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "036",
+      "Column3": "6",
+      "Column4": "Campdevànol"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "037",
+      "Column3": "2",
+      "Column4": "Campelles"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "038",
+      "Column3": "8",
+      "Column4": "Campllong"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "039",
+      "Column3": "1",
+      "Column4": "Camprodon"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "040",
+      "Column3": "5",
+      "Column4": "Canet d'Adri"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "041",
+      "Column3": "2",
+      "Column4": "Cantallops"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "042",
+      "Column3": "7",
+      "Column4": "Capmany"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "044",
+      "Column3": "8",
+      "Column4": "Cassà de la Selva"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "046",
+      "Column3": "4",
+      "Column4": "Castellfollit de la Roca"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "047",
+      "Column3": "0",
+      "Column4": "Castelló d'Empúries"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "048",
+      "Column3": "6",
+      "Column4": "Castell-Platja d'Aro"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "189",
+      "Column3": "9",
+      "Column4": "Cellera de Ter, La"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "049",
+      "Column3": "9",
+      "Column4": "Celrà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "050",
+      "Column3": "2",
+      "Column4": "Cervià de Ter"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "051",
+      "Column3": "9",
+      "Column4": "Cistella"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "054",
+      "Column3": "5",
+      "Column4": "Colera"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "055",
+      "Column3": "8",
+      "Column4": "Colomers"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "057",
+      "Column3": "7",
+      "Column4": "Corçà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "056",
+      "Column3": "1",
+      "Column4": "Cornellà del Terri"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "058",
+      "Column3": "3",
+      "Column4": "Crespià"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "901",
+      "Column3": "1",
+      "Column4": "Cruïlles, Monells i Sant Sadurní de l'Heura"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "060",
+      "Column3": "0",
+      "Column4": "Darnius"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "061",
+      "Column3": "7",
+      "Column4": "Das"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "062",
+      "Column3": "2",
+      "Column4": "Escala, L'"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "063",
+      "Column3": "8",
+      "Column4": "Espinelves"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "064",
+      "Column3": "3",
+      "Column4": "Espolla"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "065",
+      "Column3": "6",
+      "Column4": "Esponellà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "005",
+      "Column3": "9",
+      "Column4": "Far d'Empordà, El"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "066",
+      "Column3": "9",
+      "Column4": "Figueres"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "067",
+      "Column3": "5",
+      "Column4": "Flaçà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "068",
+      "Column3": "1",
+      "Column4": "Foixà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "069",
+      "Column3": "4",
+      "Column4": "Fontanals de Cerdanya"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "070",
+      "Column3": "8",
+      "Column4": "Fontanilles"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "071",
+      "Column3": "5",
+      "Column4": "Fontcoberta"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "902",
+      "Column3": "6",
+      "Column4": "Forallac"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "073",
+      "Column3": "6",
+      "Column4": "Fornells de la Selva"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "074",
+      "Column3": "1",
+      "Column4": "Fortià"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "075",
+      "Column3": "4",
+      "Column4": "Garrigàs"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "076",
+      "Column3": "7",
+      "Column4": "Garrigoles"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "077",
+      "Column3": "3",
+      "Column4": "Garriguella"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "078",
+      "Column3": "9",
+      "Column4": "Ger"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "079",
+      "Column3": "2",
+      "Column4": "Girona"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "080",
+      "Column3": "6",
+      "Column4": "Gombrèn"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "081",
+      "Column3": "3",
+      "Column4": "Gualta"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "082",
+      "Column3": "8",
+      "Column4": "Guils de Cerdanya"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "083",
+      "Column3": "4",
+      "Column4": "Hostalric"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "084",
+      "Column3": "9",
+      "Column4": "Isòvol"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "085",
+      "Column3": "2",
+      "Column4": "Jafre"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "086",
+      "Column3": "5",
+      "Column4": "Jonquera, La"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "087",
+      "Column3": "1",
+      "Column4": "Juià"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "088",
+      "Column3": "7",
+      "Column4": "Lladó"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "089",
+      "Column3": "0",
+      "Column4": "Llagostera"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "090",
+      "Column3": "4",
+      "Column4": "Llambilles"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "091",
+      "Column3": "1",
+      "Column4": "Llanars"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "092",
+      "Column3": "6",
+      "Column4": "Llançà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "093",
+      "Column3": "2",
+      "Column4": "Llers"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "094",
+      "Column3": "7",
+      "Column4": "Llívia"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "095",
+      "Column3": "0",
+      "Column4": "Lloret de Mar"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "096",
+      "Column3": "3",
+      "Column4": "Llosses, Les"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "102",
+      "Column3": "4",
+      "Column4": "Maçanet de Cabrenys"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "103",
+      "Column3": "0",
+      "Column4": "Maçanet de la Selva"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "097",
+      "Column3": "9",
+      "Column4": "Madremanya"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "098",
+      "Column3": "5",
+      "Column4": "Maià de Montcal"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "100",
+      "Column3": "2",
+      "Column4": "Masarac"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "101",
+      "Column3": "9",
+      "Column4": "Massanes"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "099",
+      "Column3": "8",
+      "Column4": "Meranges"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "105",
+      "Column3": "8",
+      "Column4": "Mieres"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "106",
+      "Column3": "1",
+      "Column4": "Mollet de Peralada"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "107",
+      "Column3": "7",
+      "Column4": "Molló"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "109",
+      "Column3": "6",
+      "Column4": "Montagut i Oix"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "110",
+      "Column3": "0",
+      "Column4": "Mont-ras"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "111",
+      "Column3": "7",
+      "Column4": "Navata"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "112",
+      "Column3": "2",
+      "Column4": "Ogassa"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "114",
+      "Column3": "3",
+      "Column4": "Olot"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "115",
+      "Column3": "6",
+      "Column4": "Ordis"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "116",
+      "Column3": "9",
+      "Column4": "Osor"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "117",
+      "Column3": "5",
+      "Column4": "Palafrugell"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "118",
+      "Column3": "1",
+      "Column4": "Palamós"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "119",
+      "Column3": "4",
+      "Column4": "Palau de Santa Eulàlia"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "121",
+      "Column3": "5",
+      "Column4": "Palau-sator"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "120",
+      "Column3": "8",
+      "Column4": "Palau-saverdera"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "123",
+      "Column3": "6",
+      "Column4": "Palol de Revardit"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "124",
+      "Column3": "1",
+      "Column4": "Pals"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "125",
+      "Column3": "4",
+      "Column4": "Pardines"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "126",
+      "Column3": "7",
+      "Column4": "Parlavà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "128",
+      "Column3": "9",
+      "Column4": "Pau"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "129",
+      "Column3": "2",
+      "Column4": "Pedret i Marzà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "130",
+      "Column3": "6",
+      "Column4": "Pera, La"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "132",
+      "Column3": "8",
+      "Column4": "Peralada"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "133",
+      "Column3": "4",
+      "Column4": "Planes d'Hostoles, Les"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "134",
+      "Column3": "9",
+      "Column4": "Planoles"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "135",
+      "Column3": "2",
+      "Column4": "Pont de Molins"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "136",
+      "Column3": "5",
+      "Column4": "Pontós"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "137",
+      "Column3": "1",
+      "Column4": "Porqueres"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "140",
+      "Column3": "4",
+      "Column4": "Port de la Selva, El"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "138",
+      "Column3": "7",
+      "Column4": "Portbou"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "139",
+      "Column3": "0",
+      "Column4": "Preses, Les"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "141",
+      "Column3": "1",
+      "Column4": "Puigcerdà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "142",
+      "Column3": "6",
+      "Column4": "Quart"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "043",
+      "Column3": "3",
+      "Column4": "Queralbs"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "143",
+      "Column3": "2",
+      "Column4": "Rabós"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "144",
+      "Column3": "7",
+      "Column4": "Regencós"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "145",
+      "Column3": "0",
+      "Column4": "Ribes de Freser"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "146",
+      "Column3": "3",
+      "Column4": "Riells i Viabrea"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "147",
+      "Column3": "9",
+      "Column4": "Ripoll"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "148",
+      "Column3": "5",
+      "Column4": "Riudarenes"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "149",
+      "Column3": "8",
+      "Column4": "Riudaura"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "150",
+      "Column3": "1",
+      "Column4": "Riudellots de la Selva"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "151",
+      "Column3": "8",
+      "Column4": "Riumors"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "152",
+      "Column3": "3",
+      "Column4": "Roses"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "153",
+      "Column3": "9",
+      "Column4": "Rupià"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "154",
+      "Column3": "4",
+      "Column4": "Sales de Llierca"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "155",
+      "Column3": "7",
+      "Column4": "Salt"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "157",
+      "Column3": "6",
+      "Column4": "Sant Andreu Salou"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "183",
+      "Column3": "3",
+      "Column4": "Sant Aniol de Finestres"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "158",
+      "Column3": "2",
+      "Column4": "Sant Climent Sescebes"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "159",
+      "Column3": "5",
+      "Column4": "Sant Feliu de Buixalleu"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "160",
+      "Column3": "9",
+      "Column4": "Sant Feliu de Guíxols"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "161",
+      "Column3": "6",
+      "Column4": "Sant Feliu de Pallerols"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "162",
+      "Column3": "1",
+      "Column4": "Sant Ferriol"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "163",
+      "Column3": "7",
+      "Column4": "Sant Gregori"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "164",
+      "Column3": "2",
+      "Column4": "Sant Hilari Sacalm"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "165",
+      "Column3": "5",
+      "Column4": "Sant Jaume de Llierca"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "167",
+      "Column3": "4",
+      "Column4": "Sant Joan de les Abadesses"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "168",
+      "Column3": "0",
+      "Column4": "Sant Joan de Mollet"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "185",
+      "Column3": "1",
+      "Column4": "Sant Joan les Fonts"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "166",
+      "Column3": "8",
+      "Column4": "Sant Jordi Desvalls"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "169",
+      "Column3": "3",
+      "Column4": "Sant Julià de Ramis"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "903",
+      "Column3": "2",
+      "Column4": "Sant Julià del Llor i Bonmatí"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "171",
+      "Column3": "4",
+      "Column4": "Sant Llorenç de la Muga"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "172",
+      "Column3": "9",
+      "Column4": "Sant Martí de Llémena"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "173",
+      "Column3": "5",
+      "Column4": "Sant Martí Vell"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "174",
+      "Column3": "0",
+      "Column4": "Sant Miquel de Campmajor"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "175",
+      "Column3": "3",
+      "Column4": "Sant Miquel de Fluvià"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "176",
+      "Column3": "6",
+      "Column4": "Sant Mori"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "177",
+      "Column3": "2",
+      "Column4": "Sant Pau de Segúries"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "178",
+      "Column3": "8",
+      "Column4": "Sant Pere Pescador"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "180",
+      "Column3": "5",
+      "Column4": "Santa Coloma de Farners"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "181",
+      "Column3": "2",
+      "Column4": "Santa Cristina d'Aro"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "182",
+      "Column3": "7",
+      "Column4": "Santa Llogaia d'Àlguema"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "184",
+      "Column3": "8",
+      "Column4": "Santa Pau"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "186",
+      "Column3": "4",
+      "Column4": "Sarrià de Ter"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "187",
+      "Column3": "0",
+      "Column4": "Saus, Camallera i Llampaies"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "188",
+      "Column3": "6",
+      "Column4": "Selva de Mar, La"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "190",
+      "Column3": "3",
+      "Column4": "Serinyà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "191",
+      "Column3": "0",
+      "Column4": "Serra de Daró"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "192",
+      "Column3": "5",
+      "Column4": "Setcases"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "193",
+      "Column3": "1",
+      "Column4": "Sils"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "052",
+      "Column3": "4",
+      "Column4": "Siurana"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "194",
+      "Column3": "6",
+      "Column4": "Susqueda"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "195",
+      "Column3": "9",
+      "Column4": "Tallada d'Empordà, La"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "196",
+      "Column3": "2",
+      "Column4": "Terrades"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "197",
+      "Column3": "8",
+      "Column4": "Torrent"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "198",
+      "Column3": "4",
+      "Column4": "Torroella de Fluvià"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "199",
+      "Column3": "7",
+      "Column4": "Torroella de Montgrí"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "200",
+      "Column3": "1",
+      "Column4": "Tortellà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "201",
+      "Column3": "8",
+      "Column4": "Toses"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "202",
+      "Column3": "3",
+      "Column4": "Tossa de Mar"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "204",
+      "Column3": "4",
+      "Column4": "Ullà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "205",
+      "Column3": "7",
+      "Column4": "Ullastret"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "203",
+      "Column3": "9",
+      "Column4": "Ultramort"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "206",
+      "Column3": "0",
+      "Column4": "Urús"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "014",
+      "Column3": "4",
+      "Column4": "Vajol, La"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "208",
+      "Column3": "2",
+      "Column4": "Vall de Bianya, La"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "207",
+      "Column3": "6",
+      "Column4": "Vall d'en Bas, La"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "170",
+      "Column3": "7",
+      "Column4": "Vallfogona de Ripollès"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "209",
+      "Column3": "5",
+      "Column4": "Vall-llobrega"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "210",
+      "Column3": "9",
+      "Column4": "Ventalló"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "211",
+      "Column3": "6",
+      "Column4": "Verges"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "212",
+      "Column3": "1",
+      "Column4": "Vidrà"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "213",
+      "Column3": "7",
+      "Column4": "Vidreres"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "214",
+      "Column3": "2",
+      "Column4": "Vilabertran"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "215",
+      "Column3": "5",
+      "Column4": "Vilablareix"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "217",
+      "Column3": "4",
+      "Column4": "Viladamat"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "216",
+      "Column3": "8",
+      "Column4": "Viladasens"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "218",
+      "Column3": "0",
+      "Column4": "Vilademuls"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "220",
+      "Column3": "7",
+      "Column4": "Viladrau"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "221",
+      "Column3": "4",
+      "Column4": "Vilafant"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "223",
+      "Column3": "5",
+      "Column4": "Vilajuïga"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "224",
+      "Column3": "0",
+      "Column4": "Vilallonga de Ter"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "225",
+      "Column3": "3",
+      "Column4": "Vilamacolum"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "226",
+      "Column3": "6",
+      "Column4": "Vilamalla"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "227",
+      "Column3": "2",
+      "Column4": "Vilamaniscle"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "228",
+      "Column3": "8",
+      "Column4": "Vilanant"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "230",
+      "Column3": "5",
+      "Column4": "Vila-sacra"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "222",
+      "Column3": "9",
+      "Column4": "Vilaür"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "233",
+      "Column3": "3",
+      "Column4": "Vilobí d'Onyar"
+    },
+    {
+      "CPRO": "17",
+      "Column2": "232",
+      "Column3": "7",
+      "Column4": "Vilopriu"
+    }
+  ]
+}

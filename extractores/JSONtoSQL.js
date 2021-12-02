@@ -1,8 +1,7 @@
-const { query } = require("express");
-const json = require("../Fuentes de datos/Euskadi/bibliotecas.json")
+const json = require("../Fuentes de datos/Archivos_demo/EUS.json")
 
 function readJson(){
-    let nombre, tipo, direccion, codigopostal, longitud, latitud, telefono, email, descripcion;
+    let nombre, tipo, direccion, codigopostal, longitud, latitud, telefono, email, descripcion, nombreLocalidad, nombreProvincia, codigoLocalidad, codigoProvincia;
     let query = [];
     let isDuplicated;
     for(let i = 0; i<json.length; i++){
@@ -22,7 +21,7 @@ function readJson(){
             email = "'" + json[i].email+"'";
             descripcion = "'" + json[i].documentDescription+"'";
             query[i] = "INSERT INTO biblioteca (nombre, tipo, direccion, codigoPostal, longitud, latitud, telefono, email, descripcion, enLocalidad) VALUES(" +
-            nombre + "," + tipo + "," + direccion + "," + codigopostal + "," + longitud + "," + latitud + "," + telefono + "," + email + "," + descripcion + ", NULL);"
+            nombre + "," + tipo + "," + direccion + "," + codigopostal + "," + longitud + "," + latitud + "," + telefono + "," + email + "," + descripcion + "," + ");"
         }
     }
     return query;

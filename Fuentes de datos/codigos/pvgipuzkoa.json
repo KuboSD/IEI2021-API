@@ -1,0 +1,544 @@
+{
+  "Hoja1": [
+    {
+      "CPRO": "GIPUZKOA",
+      "Column2": null,
+      "Column3": null,
+      "Column4": null
+    },
+    {
+      "CPRO": "CPRO",
+      "Column2": "CMUN",
+      "Column3": "DC",
+      "Column4": "NOMBRE"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "001",
+      "Column3": "3",
+      "Column4": "Abaltzisketa"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "002",
+      "Column3": "8",
+      "Column4": "Aduna"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "016",
+      "Column3": "3",
+      "Column4": "Aia"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "003",
+      "Column3": "4",
+      "Column4": "Aizarnazabal"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "004",
+      "Column3": "9",
+      "Column4": "Albiztur"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "005",
+      "Column3": "2",
+      "Column4": "Alegia"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "006",
+      "Column3": "5",
+      "Column4": "Alkiza"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "906",
+      "Column3": "6",
+      "Column4": "Altzaga"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "007",
+      "Column3": "1",
+      "Column4": "Altzo"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "008",
+      "Column3": "7",
+      "Column4": "Amezketa"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "009",
+      "Column3": "0",
+      "Column4": "Andoain"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "010",
+      "Column3": "4",
+      "Column4": "Anoeta"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "011",
+      "Column3": "1",
+      "Column4": "Antzuola"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "012",
+      "Column3": "6",
+      "Column4": "Arama"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "013",
+      "Column3": "2",
+      "Column4": "Aretxabaleta"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "055",
+      "Column3": "1",
+      "Column4": "Arrasate/Mondragón"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "014",
+      "Column3": "7",
+      "Column4": "Asteasu"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "903",
+      "Column3": "5",
+      "Column4": "Astigarraga"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "015",
+      "Column3": "0",
+      "Column4": "Ataun"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "017",
+      "Column3": "9",
+      "Column4": "Azkoitia"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "018",
+      "Column3": "5",
+      "Column4": "Azpeitia"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "904",
+      "Column3": "0",
+      "Column4": "Baliarrain"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "019",
+      "Column3": "8",
+      "Column4": "Beasain"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "020",
+      "Column3": "2",
+      "Column4": "Beizama"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "021",
+      "Column3": "9",
+      "Column4": "Belauntza"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "022",
+      "Column3": "4",
+      "Column4": "Berastegi"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "074",
+      "Column3": "4",
+      "Column4": "Bergara"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "023",
+      "Column3": "0",
+      "Column4": "Berrobi"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "024",
+      "Column3": "5",
+      "Column4": "Bidania-Goiatz"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "029",
+      "Column3": "6",
+      "Column4": "Deba"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "069",
+      "Column3": "7",
+      "Column4": "Donostia/San Sebastián"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "030",
+      "Column3": "0",
+      "Column4": "Eibar"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "031",
+      "Column3": "7",
+      "Column4": "Elduain"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "033",
+      "Column3": "8",
+      "Column4": "Elgeta"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "032",
+      "Column3": "2",
+      "Column4": "Elgoibar"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "067",
+      "Column3": "8",
+      "Column4": "Errenteria"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "066",
+      "Column3": "2",
+      "Column4": "Errezil"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "034",
+      "Column3": "3",
+      "Column4": "Eskoriatza"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "035",
+      "Column3": "6",
+      "Column4": "Ezkio-Itsaso"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "038",
+      "Column3": "1",
+      "Column4": "Gabiria"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "037",
+      "Column3": "5",
+      "Column4": "Gaintza"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "907",
+      "Column3": "2",
+      "Column4": "Gaztelu"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "039",
+      "Column3": "4",
+      "Column4": "Getaria"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "040",
+      "Column3": "8",
+      "Column4": "Hernani"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "041",
+      "Column3": "5",
+      "Column4": "Hernialde"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "036",
+      "Column3": "9",
+      "Column4": "Hondarribia"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "042",
+      "Column3": "0",
+      "Column4": "Ibarra"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "043",
+      "Column3": "6",
+      "Column4": "Idiazabal"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "044",
+      "Column3": "1",
+      "Column4": "Ikaztegieta"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "045",
+      "Column3": "4",
+      "Column4": "Irun"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "046",
+      "Column3": "7",
+      "Column4": "Irura"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "047",
+      "Column3": "3",
+      "Column4": "Itsasondo"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "048",
+      "Column3": "9",
+      "Column4": "Larraul"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "902",
+      "Column3": "9",
+      "Column4": "Lasarte-Oria"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "049",
+      "Column3": "2",
+      "Column4": "Lazkao"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "050",
+      "Column3": "5",
+      "Column4": "Leaburu"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "051",
+      "Column3": "2",
+      "Column4": "Legazpi"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "052",
+      "Column3": "7",
+      "Column4": "Legorreta"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "068",
+      "Column3": "4",
+      "Column4": "Leintz-Gatzaga"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "053",
+      "Column3": "3",
+      "Column4": "Lezo"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "054",
+      "Column3": "8",
+      "Column4": "Lizartza"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "901",
+      "Column3": "4",
+      "Column4": "Mendaro"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "057",
+      "Column3": "0",
+      "Column4": "Mutiloa"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "056",
+      "Column3": "4",
+      "Column4": "Mutriku"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "063",
+      "Column3": "1",
+      "Column4": "Oiartzun"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "058",
+      "Column3": "6",
+      "Column4": "Olaberria"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "059",
+      "Column3": "9",
+      "Column4": "Oñati"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "076",
+      "Column3": "0",
+      "Column4": "Ordizia"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "905",
+      "Column3": "3",
+      "Column4": "Orendain"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "060",
+      "Column3": "3",
+      "Column4": "Orexa"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "061",
+      "Column3": "0",
+      "Column4": "Orio"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "062",
+      "Column3": "5",
+      "Column4": "Ormaiztegi"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "064",
+      "Column3": "6",
+      "Column4": "Pasaia"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "070",
+      "Column3": "1",
+      "Column4": "Segura"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "065",
+      "Column3": "9",
+      "Column4": "Soraluze-Placencia de las Armas"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "071",
+      "Column3": "8",
+      "Column4": "Tolosa"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "072",
+      "Column3": "3",
+      "Column4": "Urnieta"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "077",
+      "Column3": "6",
+      "Column4": "Urretxu"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "073",
+      "Column3": "9",
+      "Column4": "Usurbil"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "075",
+      "Column3": "7",
+      "Column4": "Villabona"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "078",
+      "Column3": "2",
+      "Column4": "Zaldibia"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "079",
+      "Column3": "5",
+      "Column4": "Zarautz"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "025",
+      "Column3": "8",
+      "Column4": "Zegama"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "026",
+      "Column3": "1",
+      "Column4": "Zerain"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "027",
+      "Column3": "7",
+      "Column4": "Zestoa"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "028",
+      "Column3": "3",
+      "Column4": "Zizurkil"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "081",
+      "Column3": "6",
+      "Column4": "Zumaia"
+    },
+    {
+      "CPRO": "20",
+      "Column2": "080",
+      "Column3": "9",
+      "Column4": "Zumarraga"
+    }
+  ]
+}
