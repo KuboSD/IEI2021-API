@@ -4,6 +4,7 @@ const dbConfig = require("./db.config");
 const jsonExtractor = require('./extractores/JSONtoSQL')
 const queryToLocalidades = require('./extractores/queryLocalidad')
 const csvextractor = require('./extractores/CSVtoSQL')
+const xmlextractor = require('./extractores/XMLtoJSON')
 let queryToDb;
 
 // Create a connection to the database
@@ -20,7 +21,7 @@ connection.getConnection(error => {
     if (error) throw error;
     console.log("Successfully connected to the database.");
     //queryToDb = jsonExtractor.readJson();
-    queryToDb = csvextractor.jsonToQuery()
+    queryToDb = xmlextractor.queryCAT();
     for(let i in queryToDb){
       connection.query(queryToDb[i], (err) => {
         if(err){
