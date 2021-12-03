@@ -1,4 +1,4 @@
-const json = require("../Fuentes de datos/Archivos_demo/EUS.json")
+const json = require("../Fuentes_de_datos/Archivos_demo/EUS.json")
 
 function readJson(){
     let nombre, tipo, direccion, codigopostal, longitud, latitud, telefono, email, descripcion, nombreLocalidad, nombreProvincia, codigoLocalidad, codigoProvincia;

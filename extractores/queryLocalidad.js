@@ -1,13 +1,13 @@
-const barcelona = require('../Fuentes de datos/codigos/catbarcelona.json')
-const tarragona = require('../Fuentes de datos/codigos/cattarragona.json')
-const lleida = require('../Fuentes de datos/codigos/catlleida.json')
-const girona = require('../Fuentes de datos/codigos/catgirona.json')
-const valencia = require('../Fuentes de datos/codigos/cvvalencia.json')
-const alicante = require('../Fuentes de datos/codigos/cvalicante.json')
-const castellon = require('../Fuentes de datos/codigos/cvcastellon.json')
-const alava = require('../Fuentes de datos/codigos/pvalava.json')
-const gipuzkoa = require('../Fuentes de datos/codigos/pvgipuzkoa.json')
-const bizkaia = require('../Fuentes de datos/codigos/pvvizcaya.json')
+const barcelona = require('../Fuentes_de_datos/codigos/catbarcelona.json')
+const tarragona = require('../Fuentes_de_datos/codigos/cattarragona.json')
+const lleida = require('../Fuentes_de_datos/codigos/catlleida.json')
+const girona = require('../Fuentes_de_datos/codigos/catgirona.json')
+const valencia = require('../Fuentes_de_datos/codigos/cvvalencia.json')
+const alicante = require('../Fuentes_de_datos/codigos/cvalicante.json')
+const castellon = require('../Fuentes_de_datos/codigos/cvcastellon.json')
+const alava = require('../Fuentes_de_datos/codigos/pvalava.json')
+const gipuzkoa = require('../Fuentes_de_datos/codigos/pvgipuzkoa.json')
+const bizkaia = require('../Fuentes_de_datos/codigos/pvvizcaya.json')
 const query = []
 let codigo, nombre, codProvincia;
 

@@ -1,10 +1,5 @@
 const express = require("express");
 const cors = require("cors");
-const xml2js = require("xml2js")
-const fs = require('fs');
-const jsonExtractor = require('./extractores/JSONtoSQL');
-const parser = new xml2js.Parser({ attrkey: "ATTR" });
-let xml_string = fs.readFileSync("./Fuentes de datos/Catalunya/biblioteques.xml", "utf8");
 
 const app = express();
 

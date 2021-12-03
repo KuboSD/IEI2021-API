@@ -1,0 +1,322 @@
+{
+  "Hoja1": [
+    {
+      "CPRO": "ARABA/ÁLAVA",
+      "Column2": null,
+      "Column3": null,
+      "Column4": null
+    },
+    {
+      "CPRO": "CPRO",
+      "Column2": "CMUN",
+      "Column3": "DC",
+      "Column4": "NOMBRE"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "051",
+      "Column3": "3",
+      "Column4": "Agurain/Salvatierra"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "001",
+      "Column3": "4",
+      "Column4": "Alegría-Dulantzi"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "002",
+      "Column3": "9",
+      "Column4": "Amurrio"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "049",
+      "Column3": "3",
+      "Column4": "Añana"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "003",
+      "Column3": "5",
+      "Column4": "Aramaio"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "006",
+      "Column3": "6",
+      "Column4": "Armiñón"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "037",
+      "Column3": "6",
+      "Column4": "Arraia-Maeztu"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "008",
+      "Column3": "8",
+      "Column4": "Arratzua-Ubarrundia"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "004",
+      "Column3": "0",
+      "Column4": "Artziniega"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "009",
+      "Column3": "1",
+      "Column4": "Asparrena"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "010",
+      "Column3": "5",
+      "Column4": "Ayala/Aiara"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "011",
+      "Column3": "2",
+      "Column4": "Baños de Ebro/Mañueta"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "013",
+      "Column3": "3",
+      "Column4": "Barrundia"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "014",
+      "Column3": "8",
+      "Column4": "Berantevilla"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "016",
+      "Column3": "4",
+      "Column4": "Bernedo"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "017",
+      "Column3": "0",
+      "Column4": "Campezo/Kanpezu"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "021",
+      "Column3": "0",
+      "Column4": "Elburgo/Burgelu"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "022",
+      "Column3": "5",
+      "Column4": "Elciego"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "023",
+      "Column3": "1",
+      "Column4": "Elvillar/Bilar"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "047",
+      "Column3": "4",
+      "Column4": "Erriberabeitia"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "046",
+      "Column3": "8",
+      "Column4": "Erriberagoitia/Ribera Alta"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "056",
+      "Column3": "5",
+      "Column4": "Harana/Valle de Arana"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "901",
+      "Column3": "5",
+      "Column4": "Iruña Oka/Iruña de Oca"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "027",
+      "Column3": "8",
+      "Column4": "Iruraiz-Gauna"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "019",
+      "Column3": "9",
+      "Column4": "Kripan"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "020",
+      "Column3": "3",
+      "Column4": "Kuartango"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "028",
+      "Column3": "4",
+      "Column4": "Labastida/Bastida"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "030",
+      "Column3": "1",
+      "Column4": "Lagrán"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "031",
+      "Column3": "8",
+      "Column4": "Laguardia"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "032",
+      "Column3": "3",
+      "Column4": "Lanciego/Lantziego"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "902",
+      "Column3": "0",
+      "Column4": "Lantarón"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "033",
+      "Column3": "9",
+      "Column4": "Lapuebla de Labarca"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "036",
+      "Column3": "0",
+      "Column4": "Laudio/Llodio"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "058",
+      "Column3": "7",
+      "Column4": "Legutio"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "034",
+      "Column3": "4",
+      "Column4": "Leza"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "039",
+      "Column3": "5",
+      "Column4": "Moreda de Álava/Moreda Araba"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "041",
+      "Column3": "6",
+      "Column4": "Navaridas"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "042",
+      "Column3": "1",
+      "Column4": "Okondo"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "043",
+      "Column3": "7",
+      "Column4": "Oyón-Oion"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "044",
+      "Column3": "2",
+      "Column4": "Peñacerrada-Urizaharra"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "052",
+      "Column3": "8",
+      "Column4": "Samaniego"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "053",
+      "Column3": "4",
+      "Column4": "San Millán/Donemiliaga"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "054",
+      "Column3": "9",
+      "Column4": "Urkabustaiz"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "055",
+      "Column3": "2",
+      "Column4": "Valdegovía/Gaubea"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "057",
+      "Column3": "1",
+      "Column4": "Villabuena de Álava/Eskuernaga"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "059",
+      "Column3": "0",
+      "Column4": "Vitoria - Gasteiz"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "060",
+      "Column3": "4",
+      "Column4": "Yécora/Iekora"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "061",
+      "Column3": "1",
+      "Column4": "Zalduondo"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "062",
+      "Column3": "6",
+      "Column4": "Zambrana"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "018",
+      "Column3": "6",
+      "Column4": "Zigoitia"
+    },
+    {
+      "CPRO": "01",
+      "Column2": "063",
+      "Column3": "2",
+      "Column4": "Zuia"
+    }
+  ]
+}
