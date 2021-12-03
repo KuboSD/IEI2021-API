@@ -20,8 +20,9 @@ function readJson(){
             telefono = "'" + json[i].phone+"'";
             email = "'" + json[i].email+"'";
             descripcion = "'" + json[i].documentDescription+"'";
+            nombreLocalidad = "'" + json[i].municipality+"'";
             query[i] = "INSERT INTO biblioteca (nombre, tipo, direccion, codigoPostal, longitud, latitud, telefono, email, descripcion, enLocalidad) VALUES(" +
-            nombre + "," + tipo + "," + direccion + "," + codigopostal + "," + longitud + "," + latitud + "," + telefono + "," + email + "," + descripcion + "," + ");"
+            nombre + "," + tipo + "," + direccion + "," + codigopostal + "," + longitud + "," + latitud + "," + telefono + "," + email + "," + descripcion + "," + "(SELECT codigo FROM localidad WHERE nombre = " + nombreLocalidad + "));"
         }
     }
     return query;

@@ -18,7 +18,7 @@ const connection = mysql.createPool({
 connection.getConnection(error => {
     if (error) throw error;
     console.log("Successfully connected to the database.");
-    queryToDb = queryToLocalidades.insertarLocalidades();
+    queryToDb = jsonExtractor.readJson();
     for(let i in queryToDb){
       connection.query(queryToDb[i], (err) => {
         if(err){
