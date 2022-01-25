@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Map</title>
+
+    <style type="text/css">
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+    </style>
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        const madrid = { lat: 40.416729, lng: -3.703339 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 6,
+          center: madrid,
+        });
+      }
+    </script>
+    <script>
+        // Initialize and add the map
+        function addMarkers() {
+            const biblioteca1 = {latitud: 40.416729, longitud: -3.703339};
+            const biblioteca1 = {latitud: 40.616729, longitud: -3.603339};
+            const biblioteca1 = {latitud: 40.216729, longitud: -3.503339};
+            const resultados = {biblioteca1, biblioteca2, biblioteca3};
+            for (let i = 0; i < resultados.length; i++) {
+                markers[i] += {lat = resultados[i].latitud, lng = resultados[i].longitud};
+                new google.maps.Marker({
+                    position: markers[i],
+                    map: map,
+                });
+            }
+          
+        }
+      </script>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <button type="button" onclick="addMarkers()">Generar marcadores</button>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnAfPHaB_nPgU7UujxvqF9WnlW-2TuINk&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
