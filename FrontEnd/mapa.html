@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Add Map</title>
+    <title>Mapa</title>
 
     <style type="text/css">
       /* Set the size of the div element that contains the map */
@@ -26,29 +26,30 @@
         // Initialize and add the map
         function addMarkers() {
             const biblioteca1 = {latitud: 40.416729, longitud: -3.703339};
-            const biblioteca1 = {latitud: 40.616729, longitud: -3.603339};
-            const biblioteca1 = {latitud: 40.216729, longitud: -3.503339};
-            const resultados = {biblioteca1, biblioteca2, biblioteca3};
+            const biblioteca2 = {latitud: 40.616729, longitud: -3.603339};
+            const biblioteca3= {latitud: 40.216729, longitud: -3.503339};
+            const resultados = [biblioteca1, biblioteca2, biblioteca3];
+            markers = [];
             for (let i = 0; i < resultados.length; i++) {
-                markers[i] += {lat = resultados[i].latitud, lng = resultados[i].longitud};
+                markers[i] += {lat: resultados[i].latitud, lng: resultados[i].longitud};
                 new google.maps.Marker({
                     position: markers[i],
                     map: map,
-                });
+                })};
+            for(let j = 0; j<markers.length; j++){
+              markers[j].setMap();
             }
-          
         }
       </script>
-  </head>
-  <body>
-    <h3>My Google Maps Demo</h3>
-    <!--The div element for the map -->
+  
+   
     <div id="map"></div>
     <button type="button" onclick="addMarkers()">Generar marcadores</button>
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+  
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnAfPHaB_nPgU7UujxvqF9WnlW-2TuINk&callback=initMap&libraries=&v=weekly"
       async
     ></script>
-  </body>
+  
+    <body onload="initMap()"></body>
 </html>
