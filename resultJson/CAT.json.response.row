@@ -1,0 +1,872 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "response": {
+        "row": [
+            {
+                "_attributes": {
+                    "_id": "row-c3jv.nr8i-we7s",
+                    "_uuid": "00000000-0000-0000-E76C-2964F0695BFC",
+                    "_position": "0",
+                    "_address": "https://analisi.transparenciacatalunya.cat/resource/zzzz-zzzz/row-c3jv.nr8i-we7s"
+                },
+                "idequipament": {
+                    "_text": "10627897"
+                },
+                "alies": {
+                    "_text": "\r\nUniversitat Politècnica de Catalunya. Biblioteca del Campus Universitari de Manresa\r\n"
+                },
+                "nom": {
+                    "_text": "\r\nUniversitat Politècnica de Catalunya. Biblioteca del Campus Universitari de Manresa\r\n"
+                },
+                "categoria": {
+                    "_text": "Cultura|Biblioteques||"
+                },
+                "via": {
+                    "_text": "Av. Bases de Manresa, 7-11"
+                },
+                "cpostal": {
+                    "_text": "08242"
+                },
+                "poblacio": {
+                    "_text": "Manresa"
+                },
+                "codi_municipi": {
+                    "_text": "081136"
+                },
+                "comarca": {
+                    "_text": "Bages"
+                },
+                "telefon1": {
+                    "_text": "93 877 72 21"
+                },
+                "utmx": {
+                    "_text": "402263.1"
+                },
+                "utmy": {
+                    "_text": "4621050.02"
+                },
+                "longitud": {
+                    "_text": "1.8247223226775613"
+                },
+                "latitud": {
+                    "_text": "41.7352559365019"
+                },
+                "email": {
+                    "_text": "biblioteca.bcum@upc.edu"
+                },
+                "data_modificacio": {
+                    "_text": "1632468374"
+                },
+                "propietats": {
+                    "_text": "\r\nAny de construcció|0|Any del cens|0|Superfície total en m2|0|Titularitat|Universitat\r\n"
+                },
+                "localitzacio": {
+                    "_text": "POINT (1.8247223 41.735256)"
+                }
+            },
+            {
+                "_attributes": {
+                    "_id": "row-na93_csme-qqz9",
+                    "_uuid": "00000000-0000-0000-9E05-5FAE89633A72",
+                    "_position": "0",
+                    "_address": "https://analisi.transparenciacatalunya.cat/resource/zzzz-zzzz/row-na93_csme-qqz9"
+                },
+                "idequipament": {
+                    "_text": "10628885"
+                },
+                "alies": {
+                    "_text": "Biblioteca Can Casacuberta"
+                },
+                "nom": {
+                    "_text": "Biblioteca Can Casacuberta"
+                },
+                "categoria": {
+                    "_text": "Cultura|Biblioteques||"
+                },
+                "via": {
+                    "_text": "C/ Mossèn Anton Romeu, 48"
+                },
+                "cpostal": {
+                    "_text": "08912"
+                },
+                "poblacio": {
+                    "_text": "Badalona"
+                },
+                "codi_municipi": {
+                    "_text": "080155"
+                },
+                "comarca": {
+                    "_text": "Barcelonès"
+                },
+                "telefon1": {
+                    "_text": "93 464 34 00"
+                },
+                "utmx": {
+                    "_text": "437100.73"
+                },
+                "utmy": {
+                    "_text": "4588474.34"
+                },
+                "longitud": {
+                    "_text": "2.247014345264012"
+                },
+                "latitud": {
+                    "_text": "41.44538335356168"
+                },
+                "email": {
+                    "_text": "b.badalona.cc@diba.cat"
+                },
+                "data_modificacio": {
+                    "_text": "1632468357"
+                },
+                "propietats": {
+                    "_text": "\r\nAny de construcció|0|Any del cens|0|Superfície total en m2|0|Titularitat|Adm. local: ajuntament\r\n"
+                },
+                "localitzacio": {
+                    "_text": "POINT (2.2470143 41.445385)"
+                }
+            },
+            {
+                "_attributes": {
+                    "_id": "row-scgb_wca4.g5eq",
+                    "_uuid": "00000000-0000-0000-DE54-47511D392DC0",
+                    "_position": "0",
+                    "_address": "https://analisi.transparenciacatalunya.cat/resource/zzzz-zzzz/row-scgb_wca4.g5eq"
+                },
+                "idequipament": {
+                    "_text": "10628087"
+                },
+                "alies": {
+                    "_text": "Biblioteca Fundació Maurí"
+                },
+                "nom": {
+                    "_text": "Biblioteca Fundació Maurí"
+                },
+                "categoria": {
+                    "_text": "Cultura|Biblioteques||"
+                },
+                "via": {
+                    "_text": "C/ Cardedeu, 17"
+                },
+                "cpostal": {
+                    "_text": "08530"
+                },
+                "poblacio": {
+                    "_text": "Garriga, la"
+                },
+                "codi_municipi": {
+                    "_text": "080885"
+                },
+                "comarca": {
+                    "_text": "Vallès Oriental"
+                },
+                "telefon1": {
+                    "_text": "93 871 45 01"
+                },
+                "utmx": {
+                    "_text": "440680.75"
+                },
+                "utmy": {
+                    "_text": "4615170.1"
+                },
+                "longitud": {
+                    "_text": "2.2872308338599283"
+                },
+                "latitud": {
+                    "_text": "41.68609537358605"
+                },
+                "email": {
+                    "_text": "fundaciomauri@gmail.com"
+                },
+                "data_modificacio": {
+                    "_text": "1632468367"
+                },
+                "propietats": {
+                    "_text": "\r\nAny de construcció|0|Any del cens|0|Superfície total en m2|0|Titularitat|Privada\r\n"
+                },
+                "localitzacio": {
+                    "_text": "POINT (2.2872307 41.686096)"
+                }
+            },
+            {
+                "_attributes": {
+                    "_id": "row-9py8_y5ip_4txv",
+                    "_uuid": "00000000-0000-0000-C7AC-864F52B0FB47",
+                    "_position": "0",
+                    "_address": "https://analisi.transparenciacatalunya.cat/resource/zzzz-zzzz/row-9py8_y5ip_4txv"
+                },
+                "idequipament": {
+                    "_text": "371595"
+                },
+                "alies": {
+                    "_text": "\r\nInstitut Cartogràfic i Geològic de Catalunya. Cartoteca de Catalunya\r\n"
+                },
+                "nom": {
+                    "_text": "\r\nInstitut Cartogràfic i Geològic de Catalunya. Cartoteca de Catalunya\r\n"
+                },
+                "categoria": {
+                    "_text": "Cultura|Biblioteques|Especialitzades|"
+                },
+                "via": {
+                    "_text": "Parc de Montjuïc, s/n"
+                },
+                "cpostal": {
+                    "_text": "08038"
+                },
+                "poblacio": {
+                    "_text": "Barcelona"
+                },
+                "codi_municipi": {
+                    "_text": "080193"
+                },
+                "comarca": {
+                    "_text": "Barcelonès"
+                },
+                "telefon1": {
+                    "_text": "93 567 15 00"
+                },
+                "fax": {
+                    "_text": "93 567 15 67"
+                },
+                "utmx": {
+                    "_text": "429199.0"
+                },
+                "utmy": {
+                    "_text": "4580034.0"
+                },
+                "longitud": {
+                    "_text": "2.153417196"
+                },
+                "latitud": {
+                    "_text": "41.368706467"
+                },
+                "email": {
+                    "_text": "cartoteca@icgc.cat"
+                },
+                "web": {
+                    "_attributes": {
+                        "url": "http://www.icgc.cat/L-ICGC/Sobre-l-ICGC/Contacte2/Sobre-la-Cartoteca"
+                    }
+                },
+                "data_modificacio": {
+                    "_text": "1632467194"
+                },
+                "propietats": {
+                    "_text": [
+                        "\r\nAccés|Lliure|Especialitats|Cartografia,Excursionisme,Història local,Infraestructura (Economia),Ordenació del territori,Medi ambient,Geologia,Geografia|Horari destiu|DL de 09:00 a 14:00",
+                        "DM de 09:00 a 14:00",
+                        "DX de 09:00 a 14:00",
+                        "DJ de 09:00 a 14:00",
+                        "DV de 09:00 a 14:00",
+                        "DS Tancat",
+                        "DG Tancat|Horari dhivern|DL de 09:00 a 14:00",
+                        "DM de 09:00 a 14:00",
+                        "DX de 09:00 a 14:00",
+                        "DJ de 09:00 a 14:00",
+                        "DV de 09:00 a 14:00",
+                        "DS Tancat",
+                        "DG Tancat|Observacions horari estiu|Agost tancat.|Observacions horari hivern|Tanca durant Setmana Santa i de Nadal a Reis.|Serveis|Cerques a mida per perfils dusuaris,Consulta a sala,Circulació interna,Difusió selectiva dinformació,Desiderates,Préstec personal,Préstec interbibliotecari|Titularitat|Generalitat\r\n"
+                    ],
+                    "br": [
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {}
+                    ]
+                },
+                "localitzacio": {
+                    "_text": "POINT (2.153417 41.368706)"
+                }
+            },
+            {
+                "_attributes": {
+                    "_id": "row-utcm-wqq3.ba4g",
+                    "_uuid": "00000000-0000-0000-477B-523C373FA9E8",
+                    "_position": "0",
+                    "_address": "https://analisi.transparenciacatalunya.cat/resource/zzzz-zzzz/row-utcm-wqq3.ba4g"
+                },
+                "idequipament": {
+                    "_text": "371182"
+                },
+                "alies": {
+                    "_text": "\r\nMuseu del Disseny de Barcelona. Centre de Documentació\r\n"
+                },
+                "nom": {
+                    "_text": "\r\nMuseu del Disseny de Barcelona. Centre de Documentació\r\n"
+                },
+                "categoria": {
+                    "_text": "Cultura|Biblioteques|Especialitzades|"
+                },
+                "via": {
+                    "_text": "Pl. de les Glòries Catalanes, 37-38"
+                },
+                "cpostal": {
+                    "_text": "08018"
+                },
+                "poblacio": {
+                    "_text": "Barcelona"
+                },
+                "codi_municipi": {
+                    "_text": "080193"
+                },
+                "comarca": {
+                    "_text": "Barcelonès"
+                },
+                "telefon1": {
+                    "_text": "93 256 68 30"
+                },
+                "utmx": {
+                    "_text": "432078.38"
+                },
+                "utmy": {
+                    "_text": "4583745.36"
+                },
+                "longitud": {
+                    "_text": "2.18742712"
+                },
+                "latitud": {
+                    "_text": "41.402381795"
+                },
+                "email": {
+                    "_text": "documentacio.mdb@bcn.cat"
+                },
+                "web": {
+                    "_attributes": {
+                        "url": "http://ajuntament.barcelona.cat/museudeldisseny/ca/centredoc"
+                    }
+                },
+                "data_modificacio": {
+                    "_text": "1632467178"
+                },
+                "propietats": {
+                    "_text": [
+                        "\r\nAccés|Lliure|Especialitats|Disseny|Horari destiu|DL Tancat",
+                        "DM de 10:00 a 20:00",
+                        "DX de 10:00 a 20:00",
+                        "DJ de 15:00 a 20:00",
+                        "DV de 10:00 a 15:00",
+                        "DS Tancat",
+                        "DG Tancat|Horari dhivern|DL Tancat",
+                        "DM de 10:00 a 20:00",
+                        "DX de 10:00 a 20:00",
+                        "DJ de 15:00 a 20:00",
+                        "DV de 10:00 a 15:00",
+                        "DS Tancat",
+                        "DG Tancat|Observacions horari estiu|Agost: tancat|Serveis|Reprografia,Bookcrossing,Visites guiades,Consulta a sala,Accés a Internet,Accés a recursos electrònics,Alerta de novetats,Informació bibliogràfica,Obtenció de documents,Préstec personal,Préstec interbibliotecari,Renovació de préstec,Reserva de préstec,Carnet dusuari,Espai Wi-Fi|Titularitat|Adm. local: ajuntament\r\n"
+                    ],
+                    "br": [
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {}
+                    ]
+                },
+                "localitzacio": {
+                    "_text": "POINT (2.187427 41.40238)"
+                }
+            },
+            {
+                "_attributes": {
+                    "_id": "row-5amn.5shx-n64w",
+                    "_uuid": "00000000-0000-0000-3AAD-36C1412AF479",
+                    "_position": "0",
+                    "_address": "https://analisi.transparenciacatalunya.cat/resource/zzzz-zzzz/row-5amn.5shx-n64w"
+                },
+                "idequipament": {
+                    "_text": "371293"
+                },
+                "alies": {
+                    "_text": "\r\nUniversitat Ramon Llull. Escola Superior de Disseny (ESDI)\r\n"
+                },
+                "nom": {
+                    "_text": "\r\nUniversitat Ramon Llull. Escola Superior de Disseny (ESDI)\r\n"
+                },
+                "categoria": {
+                    "_text": "Cultura|Biblioteques|Públiques|"
+                },
+                "via": {
+                    "_text": "C/ Marquès de Comillas, 79-83"
+                },
+                "cpostal": {
+                    "_text": "08202"
+                },
+                "poblacio": {
+                    "_text": "Sabadell"
+                },
+                "codi_municipi": {
+                    "_text": "081878"
+                },
+                "comarca": {
+                    "_text": "Vallès Occidental"
+                },
+                "telefon1": {
+                    "_text": "93 727 48 19"
+                },
+                "utmx": {
+                    "_text": "426345.59"
+                },
+                "utmy": {
+                    "_text": "4599451.17"
+                },
+                "longitud": {
+                    "_text": "2.1169332"
+                },
+                "latitud": {
+                    "_text": "41.543330282"
+                },
+                "email": {
+                    "_text": "biblioteca@esdi.edu.es"
+                },
+                "web": {
+                    "_attributes": {
+                        "url": "http://www.esdi.url.edu/estudia/servei-estudiants/biblioteca/"
+                    }
+                },
+                "data_modificacio": {
+                    "_text": "1632467174"
+                },
+                "propietats": {
+                    "_text": [
+                        "\r\nAccés|Restringit|Especialitats|Disseny,Humanitats,Art|Horari destiu|DL de 08:30 a 20:00",
+                        "DM de 08:30 a 20:00",
+                        "DX de 08:30 a 20:00",
+                        "DJ de 08:30 a 20:00",
+                        "DV de 08:30 a 20:00",
+                        "DS Tancat",
+                        "DG Tancat|Horari dhivern|DL de 08:30 a 20:00",
+                        "DM de 08:30 a 20:00",
+                        "DX de 08:30 a 20:00",
+                        "DJ de 08:30 a 20:00",
+                        "DV de 08:30 a 20:00",
+                        "DS Tancat",
+                        "DG Tancat|Serveis|Consulta a sala,Desiderates,Difusió selectiva dinformació,Préstec personal,Espai Wi-Fi|Titularitat|Universitat\r\n"
+                    ],
+                    "br": [
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {}
+                    ]
+                },
+                "localitzacio": {
+                    "_text": "POINT (2.116933 41.54333)"
+                }
+            },
+            {
+                "_attributes": {
+                    "_id": "row-fuhx-jkas-hyss",
+                    "_uuid": "00000000-0000-0000-7253-45802689C161",
+                    "_position": "0",
+                    "_address": "https://analisi.transparenciacatalunya.cat/resource/zzzz-zzzz/row-fuhx-jkas-hyss"
+                },
+                "idequipament": {
+                    "_text": "371233"
+                },
+                "alies": {
+                    "_text": "Biblioteca Biblio@teneu"
+                },
+                "nom": {
+                    "_text": "Biblioteca Biblio@teneu"
+                },
+                "categoria": {
+                    "_text": "Cultura|Biblioteques|Públiques|"
+                },
+                "via": {
+                    "_text": "Pl. de la Vila, s/n"
+                },
+                "cpostal": {
+                    "_text": "08105"
+                },
+                "poblacio": {
+                    "_text": "Sant Fost de Campsentelles"
+                },
+                "codi_municipi": {
+                    "_text": "082093"
+                },
+                "comarca": {
+                    "_text": "Vallès Oriental"
+                },
+                "telefon1": {
+                    "_text": "93 579 69 81"
+                },
+                "utmx": {
+                    "_text": "435968.01"
+                },
+                "utmy": {
+                    "_text": "4596629.63"
+                },
+                "longitud": {
+                    "_text": "2.232589195"
+                },
+                "latitud": {
+                    "_text": "41.518745868"
+                },
+                "email": {
+                    "_text": "b.st.fost.b@diba.cat"
+                },
+                "web": {
+                    "_attributes": {
+                        "url": "https://bibliotecavirtual.diba.cat/sant-fost-de-campsentelles-biblioateneu"
+                    }
+                },
+                "data_modificacio": {
+                    "_text": "1632467176"
+                },
+                "propietats": {
+                    "_text": [
+                        "\r\nAccés|Lliure|Horari destiu|DL de 10:00 a 13:30 i de 15:30 a 20:00",
+                        "DM de 15:30 a 20:00",
+                        "DX de 15:30 a 20:00",
+                        "DJ de 10:00 a 13:30 i de 15:30 a 20:00",
+                        "DV de 15:30 a 20:00",
+                        "DS Tancat",
+                        "DG Tancat|Horari dhivern|DL de 10:00 a 13:30 i de 15:30 a 20:00",
+                        "DM de 15:30 a 20:00",
+                        "DX de 15:30 a 20:00",
+                        "DJ de 10:00 a 13:30 i de 15:30 a 20:00",
+                        "DV de 15:30 a 20:00",
+                        "DS de 10:00 a 13:30",
+                        "DG Tancat|Període|De l1 al 31 de juliol|Serveis|Préstec personal,Préstec interbibliotecari,Consulta a sala,Accés a Internet,Accés a programes dofimàtica,Centre col·laborador ACTIC,Informació per a nouvinguts,Racó dels pares,Informació local,Renovació de préstec,Reserva de préstec,Desiderates,Activitats de promoció de la biblioteca i foment de la lectura,Clubs de lectura,Espai Wi-Fi,Préstec de llibres electrònics|Titularitat|Adm. local: ajuntament\r\n"
+                    ],
+                    "br": [
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {}
+                    ]
+                },
+                "localitzacio": {
+                    "_text": "POINT (2.2325892 41.518745)"
+                }
+            },
+            {
+                "_attributes": {
+                    "_id": "row-qevw-ryu8-4r7k",
+                    "_uuid": "00000000-0000-0000-D459-6E2FC3AEF841",
+                    "_position": "0",
+                    "_address": "https://analisi.transparenciacatalunya.cat/resource/zzzz-zzzz/row-qevw-ryu8-4r7k"
+                },
+                "idequipament": {
+                    "_text": "371369"
+                },
+                "alies": {
+                    "_text": "Biblioteca de Calaf"
+                },
+                "nom": {
+                    "_text": "Biblioteca de Calaf"
+                },
+                "categoria": {
+                    "_text": "Cultura|Biblioteques|Públiques|"
+                },
+                "via": {
+                    "_text": "C/ Sant Joan Baptista de la Salle, 6-8"
+                },
+                "cpostal": {
+                    "_text": "08280"
+                },
+                "poblacio": {
+                    "_text": "Calaf"
+                },
+                "codi_municipi": {
+                    "_text": "080312"
+                },
+                "comarca": {
+                    "_text": "Anoia"
+                },
+                "telefon1": {
+                    "_text": "93 868 04 14"
+                },
+                "fax": {
+                    "_text": "93 868 12 36"
+                },
+                "utmx": {
+                    "_text": "376382.1"
+                },
+                "utmy": {
+                    "_text": "4620964.12"
+                },
+                "longitud": {
+                    "_text": "1.513613711"
+                },
+                "latitud": {
+                    "_text": "41.730878493"
+                },
+                "email": {
+                    "_text": "a8043395@xtec.cat"
+                },
+                "web": {
+                    "_attributes": {
+                        "url": "http://www.calaf.cat/el-municipi/guia-del-municipi/equipaments/biblioteca-de-calaf.html"
+                    }
+                },
+                "data_modificacio": {
+                    "_text": "1632467171"
+                },
+                "propietats": {
+                    "_text": [
+                        "\r\nAccés|Lliure|Horari destiu|DL de 10:00 a 13:00 i de 15:30 a 20:00",
+                        "DM de 15:30 a 20:00",
+                        "DX de 10:00 a 13:00 i de 15:30 a 20:00",
+                        "DJ de 15:30 a 20:00",
+                        "DV de 15:30 a 19:00",
+                        "DS de 10:00 a 13:00",
+                        "DG Tancat|Horari dhivern|DL de 10:00 a 13:00 i de 15:30 a 20:00",
+                        "DM de 15:30 a 20:00",
+                        "DX de 10:00 a 13:00 i de 15:30 a 20:00",
+                        "DJ de 15:30 a 20:00",
+                        "DV de 15:30 a 19:00",
+                        "DS de 10:00 a 13:00",
+                        "DG Tancat|Observacions|Ubicada a lIES Alexandre de Riquer|Serveis|Consulta a sala,Accés a Internet,Préstec personal|Titularitat|Adm. local: ajuntament\r\n"
+                    ],
+                    "br": [
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {}
+                    ]
+                },
+                "localitzacio": {
+                    "_text": "POINT (1.5136137 41.730877)"
+                }
+            },
+            {
+                "_attributes": {
+                    "_id": "row-muk4_d97w.t87e",
+                    "_uuid": "00000000-0000-0000-2E43-ED63DC785997",
+                    "_position": "0",
+                    "_address": "https://analisi.transparenciacatalunya.cat/resource/zzzz-zzzz/row-muk4_d97w.t87e"
+                },
+                "idequipament": {
+                    "_text": "1186868"
+                },
+                "alies": {
+                    "_text": "Biblioteca Municipal Marta Fàbrega i Romans"
+                },
+                "nom": {
+                    "_text": "Biblioteca Municipal Marta Fàbrega i Romans"
+                },
+                "categoria": {
+                    "_text": "Cultura|Biblioteques|Públiques|"
+                },
+                "via": {
+                    "_text": "C/ del Forn, 2"
+                },
+                "cpostal": {
+                    "_text": "17140"
+                },
+                "poblacio": {
+                    "_text": "Sant Pere Pescador"
+                },
+                "codi_municipi": {
+                    "_text": "171788"
+                },
+                "comarca": {
+                    "_text": "Alt Empordà"
+                },
+                "telefon1": {
+                    "_text": "972 55 01 85"
+                },
+                "utmx": {
+                    "_text": "506720.95"
+                },
+                "utmy": {
+                    "_text": "4670655.66"
+                },
+                "longitud": {
+                    "_text": "3.081393622"
+                },
+                "latitud": {
+                    "_text": "42.188022127"
+                },
+                "email": {
+                    "_text": "biblioteca@santpere.cat"
+                },
+                "web": {
+                    "_attributes": {
+                        "url": "http://ca.santpere.cat/biblioteca-municipal-marta-fbrega-romans.html"
+                    }
+                },
+                "data_modificacio": {
+                    "_text": "1632467165"
+                },
+                "propietats": {
+                    "_text": [
+                        "\r\nAccés|Lliure|Horari destiu|DL de 16:30 a 20:00",
+                        "DM de 16:30 a 20:00",
+                        "DX de 16:30 a 20:00",
+                        "DJ de 16:30 a 20:00",
+                        "DV de 16:30 a 20:00",
+                        "DS Tancat",
+                        "DG Tancat|Horari dhivern|DL de 16:00 a 19:30",
+                        "DM de 16:00 a 19:30",
+                        "DX de 16:00 a 19:30",
+                        "DJ de 16:00 a 19:30",
+                        "DV de 16:00 a 19:30",
+                        "DS Tancat",
+                        "DG Tancat|Període|Juliol i agost|Serveis|Cursos i tallers de formació dusuaris,Consulta a sala,Accés a Internet,Accés a recursos electrònics,Reserva de préstec,Renovació de préstec,Préstec personal,Clubs de lectura,Hores del conte,Espai Wi-Fi|Titularitat|Adm. local: ajuntament\r\n"
+                    ],
+                    "br": [
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {}
+                    ]
+                },
+                "localitzacio": {
+                    "_text": "POINT (3.0813937 42.188023)"
+                }
+            },
+            {
+                "_attributes": {
+                    "_id": "row-3z6g.zs8n.4ini",
+                    "_uuid": "00000000-0000-0000-0E1E-F0BAE25BEC30",
+                    "_position": "0",
+                    "_address": "https://analisi.transparenciacatalunya.cat/resource/zzzz-zzzz/row-3z6g.zs8n.4ini"
+                },
+                "idequipament": {
+                    "_text": "371406"
+                },
+                "alies": {
+                    "_text": "Biblioteca Municipal de Breda"
+                },
+                "nom": {
+                    "_text": "Biblioteca Municipal de Breda"
+                },
+                "categoria": {
+                    "_text": "Cultura|Biblioteques|Públiques|"
+                },
+                "via": {
+                    "_text": "Av. Verge de Montserrat, 20"
+                },
+                "cpostal": {
+                    "_text": "17400"
+                },
+                "poblacio": {
+                    "_text": "Breda"
+                },
+                "codi_municipi": {
+                    "_text": "170274"
+                },
+                "comarca": {
+                    "_text": "Selva"
+                },
+                "telefon1": {
+                    "_text": "972 87 15 70"
+                },
+                "fax": {
+                    "_text": "972 87 00 12"
+                },
+                "utmx": {
+                    "_text": "463605.24"
+                },
+                "utmy": {
+                    "_text": "4621994.46"
+                },
+                "longitud": {
+                    "_text": "2.56226022"
+                },
+                "latitud": {
+                    "_text": "41.748939602"
+                },
+                "email": {
+                    "_text": "biblioteca@breda.cat"
+                },
+                "web": {
+                    "_attributes": {
+                        "url": "https://www.bibgirona.cat/biblioteca/breda"
+                    }
+                },
+                "data_modificacio": {
+                    "_text": "1632467169"
+                },
+                "propietats": {
+                    "_text": [
+                        "\r\nAccés|Lliure|Horari destiu|DL de 16:00 a 20:00",
+                        "DM de 16:00 a 20:00",
+                        "DX de 09:00 a 13:00",
+                        "DJ de 16:00 a 20:00",
+                        "DV de 09:00 a 13:00",
+                        "DS Tancat",
+                        "DG Tancat|Horari dhivern|DL de 16:00 a 20:00",
+                        "DM de 16:00 a 20:00",
+                        "DX de 10:00 a 13:00 i de 16:00 a 20:00",
+                        "DJ de 16:00 a 20:00",
+                        "DV de 16:00 a 20:00",
+                        "DS de 10:00 a 13:00",
+                        "DG Tancat|Observacions|Ubicada a la primera planta del Centre Cívic i Social 1 dOctubre|Serveis|Préstec personal,Consulta a sala,Reprografia,Accés a Internet,Alerta de novetats,Bibliopiscina,Racó dels pares,Renovació de préstec,Reserva de préstec,Hores del conte,Carnet dusuari,Accés a programes dofimàtica,Espai Wi-Fi,Préstec interbibliotecari,Bústia de suggeriments,Exposicions,Préstec de llibres electrònics|Titularitat|Adm. local: ajuntament\r\n"
+                    ],
+                    "br": [
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {}
+                    ]
+                },
+                "localitzacio": {
+                    "_text": "POINT (2.5622602 41.74894)"
+                }
+            }
+        ]
+    }
+}

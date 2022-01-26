@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-
+const db = require("./db")
 const app = express();
 
 var corsOptions = {
@@ -16,8 +16,25 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // simple route
-app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
+app.post("/loadcv", (req, res) => {
+  db.loadCv();
+  return res.status(200).send({
+    message: 'Bibliotecas Comunidad Valenciana subidas correctamente'
+  })
+});
+
+app.post("/loadeus", (req, res) => {
+  db.loadEus();
+  return res.status(200).send({
+    message: 'Bibliotecas Euskadi subidas correctamente'
+  })
+});
+
+app.post("/loadcat", (req, res) => {
+  db.loadCat();
+  res.status(200).send({
+    message: 'Bibliotecas Cataluña subidas correctamente'
+  })
 });
 
 require("./routes")(app);

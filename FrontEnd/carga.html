@@ -1,26 +1,37 @@
+<!DOCTYPE html>
 <html>
-    <title>Buscador de bibliotecas</title>
-
-    <head>Carga del almacén de datos</head>
-    <div></div>
+    <head>
+        <title>Carga de bibliotecas</title>
+        <link rel="stylesheet" href="carga.css">
+    </head>
     <body>
-        
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-            <label for="vehicle1"> Cataluña</label><br>
-
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-            <label for="vehicle2">Comunitat Valenciana</label><br>
-
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-            <label for="vehicle3"> Euskadi</label><br>
-
-        <input type="button" value="Cargar"> </input>
-        <input type="button" value="Cancelar"> </input>
-        <div></div>
-
-        <label>Resultado de la carga</label>
-        <div></div>
-        <textarea name="Resultado"  cols="60" rows="5"></textarea>
-    
+        <div class="main-container">
+            <div class="title-container">
+                <h1>CARGA DE BIBLIOTECAS</h1>
+            </div>
+            <div class="content-container">
+                <div class="input-container">
+                    <div class="catalunya-input-container">
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label> Cataluña</label>
+                    </div>
+                    <div class="cv-input-container">
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label>Comunitat Valenciana</label>
+                    </div>
+                    <div class="euskadi-input-container">
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label> Euskadi</label>
+                    </div>
+                    <div class="button-input-container">
+                        <input type="button" value="Cargar"> </input>
+                    </div>
+                </div>
+                <div class="result-container">
+                    <label>Resultado de la carga</label>
+                    <textarea name="Resultado"  cols="60" rows="15"></textarea>
+                </div>
+            </div>
+        </div>
     </body>
         

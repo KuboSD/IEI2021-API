@@ -2,9 +2,9 @@ var convert = require('xml-js');
 const fs = require('fs');
 
 function XMLtoJSON(){
-    var xmlString = fs.readFileSync('../Fuentes_de_datos/Archivos_demo/CAT.xml', 'utf8');
+    var xmlString = fs.readFileSync('/home/alexginbo/Documentos/uni/iei/proyecto_practicas/IEI2021-API/Fuentes_de_datos/Archivos_demo/CAT.xml', 'utf8');
     let JSONConverted = convert.xml2json(xmlString, {compact: true, spaces: 4});
-    fs.writeFile('CAT.json', JSONConverted, (err) => {
+    fs.writeFile('./resultJson/CAT.json.response.row', JSONConverted, (err) => {
         if (err) throw err;
         console.log('Data written to file');
     });
@@ -18,26 +18,27 @@ function queryCAT(){
     let isDuplicated;
     //let catjson = JSON.stringify(json);
     console.log(json.response.row.length);
-    console.log(json);
-    for(let i = 0; i<json.length; i++){
+
+    for(let i = 0; i<json.response.row.length; i++){
         for(let j = 0; j<i; j++){
-            if(json[i].nom == json[j].nom){
+            if(json.response.row[i].nom == json.response.row[j].nom){
                 isDuplicated = true;
             }
         }
         if(!isDuplicated){
-            nombre = "'" + json[i].nom+"'";
-            tipo = "'" + json[i].categoria+"'";
-            direccion = "'" + json[i].via+"'";
-            codigopostal = "'" + json[i].cpostal+"'";
-            longitud = "'" + json[i].longitud+"'";
-            latitud = "'" + json[i].latitud+"'";
-            telefono = "'" + json[i].telefon1+"'";
-            email = "'" + json[i].email+"'";
-            descripcion = "'" + json[i].propietats+"'";
-            nombreLocalidad = "'" + json[i].codi_municipi+"'";
+            console.log(json.response.row[i])
+            nombre = "'" + json.response.row[i].nom._text+"'";
+            tipo = "'" + json.response.row[i].categoria._text+"'";
+            direccion = "'" + json.response.row[i].via._text+"'";
+            codigopostal = "'" + json.response.row[i].cpostal._text+"'";
+            longitud = "'" + json.response.row[i].longitud._text+"'";
+            latitud = "'" + json.response.row[i].latitud._text+"'";
+            telefono = "'" + json.response.row[i].telefon1._text+"'";
+            email = "'" + json.response.row[i].email._text+"'";
+            descripcion = "'" + json.response.row[i].propietats._text+"'";
+            nombreLocalidad = "'" + json.response.row[i].cpostal._text.slice(0,2)+json.response.row[i].codi_municipi._text+"'";
             query[i] = "INSERT INTO biblioteca (nombre, tipo, direccion, codigoPostal, longitud, latitud, telefono, email, descripcion, enLocalidad) VALUES(" +
-            nombre + "," + tipo + "," + direccion + "," + codigopostal + "," + longitud + "," + latitud + "," + telefono + "," + email + "," + descripcion + "," + "(SELECT codigo FROM localidad WHERE nombre = " + nombreLocalidad + "));"
+            nombre + "," + tipo + "," + direccion + "," + codigopostal + "," + longitud + "," + latitud + "," + telefono + "," + email + "," + descripcion + "," + "(SELECT codigo FROM localidad WHERE codigo = " + nombreLocalidad + "));"
         }
     }
     return query;

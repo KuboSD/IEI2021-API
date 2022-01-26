@@ -5,28 +5,78 @@ const jsonExtractor = require('./extractores/JSONtoSQL')
 const queryToLocalidades = require('./extractores/queryLocalidad')
 const csvextractor = require('./extractores/CSVtoSQL')
 const xmlextractor = require('./extractores/XMLtoJSON')
-let queryToDb;
 
-// Create a connection to the database
-const connection = mysql.createPool({
-  host: dbConfig.HOST,
-  port: dbConfig.PORT,
-  user: dbConfig.USER,
-  password: dbConfig.PASSWORD,
-  database: dbConfig.DB
-});
+  function loadEus(){
+    let connection = mysql.createPool({
+      host: dbConfig.HOST,
+      port: dbConfig.PORT,
+      user: dbConfig.USER,
+      password: dbConfig.PASSWORD,
+      database: dbConfig.DB
+    });
+    queryToDb = jsonExtractor.readJson();
+    connection.getConnection((error, connect) => {
+      for(let i in queryToDb){
+        connection.query(queryToDb[i], (err) => {
+          if(err){
+            throw err;
+          }
+        })
+      }
+      connect.release();
+    })
+  }
 
-// open the MySQL connection
-connection.getConnection(error => {
-    if (error) throw error;
-    console.log("Successfully connected to the database.");
-    //queryToDb = jsonExtractor.readJson();
-    queryToDb = xmlextractor.queryCAT();
-    for(let i in queryToDb){
-      connection.query(queryToDb[i], (err) => {
-        if(err){
-          throw err;
-        }
-      })
-    }
-  });
+  function loadCat(){
+    let connection = mysql.createPool({
+      host: dbConfig.HOST,
+      port: dbConfig.PORT,
+      user: dbConfig.USER,
+      password: dbConfig.PASSWORD,
+      database: dbConfig.DB
+    });
+    let queryToDb = xmlextractor.queryCAT();
+    connection.getConnection((error, connect) => {
+      if(error){
+        throw error;
+      }
+      for(let i in queryToDb){
+        connection.query(queryToDb[i], (err) => {
+          if(err){
+            throw err;
+          }
+        })
+      }
+      connect.release();
+    });
+  }
+
+  function loadCv(){
+    let connection = mysql.createPool({
+      host: dbConfig.HOST,
+      port: dbConfig.PORT,
+      user: dbConfig.USER,
+      password: dbConfig.PASSWORD,
+      database: dbConfig.DB
+    });
+    let queryToDb = csvextractor.jsonToQuery();
+    connection.getConnection((error, connect) => {
+      if(error){
+        throw error;
+      }
+      for(let i in queryToDb){
+        connection.query(queryToDb[i], (err) => {
+          if(err){
+            throw err;
+          }
+        })
+      }
+      connect.release();
+    })
+  }
+
+  module.exports = {
+    loadCat,
+    loadCv,
+    loadEus
+  }
