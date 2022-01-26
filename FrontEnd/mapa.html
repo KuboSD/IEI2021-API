@@ -29,13 +29,36 @@
             const biblioteca1 = [40.416729,  -3.703339];
             const biblioteca2 = [ 40.616729,  -3.603339];
             const biblioteca3= [ 40.216729,  -3.503339];
-            const resultados = [biblioteca1, biblioteca2, biblioteca3];
+            const biblioteca4= [ null, null, 'VALÈNCIA'];
+            const resultados = [biblioteca1, biblioteca2, biblioteca3, biblioteca4];
 
             for (let i = 0; i < resultados.length; i++) {
+              if(resultados[i][0] == null){
+                var geocoder = new google.maps.Geocoder();
+                address = resultados[i][2];
+                console.log('1');
+                //address = document.getElementById('search').value;
+                if(address!=''){
+                  console.log('2');
+                  geocoder.geocode({'address': address}, function(results, status)
+                  {
+                    if (status == 'OK')
+                    {
+                      console.log('3');
+                      var marker = new google.maps.Marker({
+                          map: map,
+                          position: results[0].geometry.location
+                      });
+                      //resultados[i][0] = results[0].geometry.location.lat();
+                      //resultados[i][1] = results[1].geometry.location.lng();
+                    }
+                  });
+                }
+              }
               marker = new google.maps.Marker({
               position: new google.maps.LatLng(resultados[i][0], resultados[i][1]),
               map: map
-              });
+              });             
             } 
           infowindow.setContent(map);  
         }
