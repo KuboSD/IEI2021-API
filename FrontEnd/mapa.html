@@ -13,32 +13,31 @@
       }
     </style>
     <script>
-      // Initialize and add the map
-      function initMap() {
-        const madrid = { lat: 40.416729, lng: -3.703339 };
-        const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 6,
-          center: madrid,
-        });
-      }
+      function initialize(){
+        let mapProp = {
+        center: new google.maps.LatLng(40.416729, -3.703339),
+        zoom: 5.5,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+        map = new google.maps.Map(document.getElementById('map'), mapProp);
+        var infowindow = new google.maps.InfoWindow();
+    };
     </script>
     <script>
         // Initialize and add the map
         function addMarkers() {
-            const biblioteca1 = {latitud: 40.416729, longitud: -3.703339};
-            const biblioteca2 = {latitud: 40.616729, longitud: -3.603339};
-            const biblioteca3= {latitud: 40.216729, longitud: -3.503339};
+            const biblioteca1 = [40.416729,  -3.703339];
+            const biblioteca2 = [ 40.616729,  -3.603339];
+            const biblioteca3= [ 40.216729,  -3.503339];
             const resultados = [biblioteca1, biblioteca2, biblioteca3];
-            markers = [];
+
             for (let i = 0; i < resultados.length; i++) {
-                markers[i] += {lat: resultados[i].latitud, lng: resultados[i].longitud};
-                new google.maps.Marker({
-                    position: markers[i],
-                    map: map,
-                })};
-            for(let j = 0; j<markers.length; j++){
-              markers[j].setMap();
-            }
+              marker = new google.maps.Marker({
+              position: new google.maps.LatLng(resultados[i][0], resultados[i][1]),
+              map: map
+              });
+            } 
+          infowindow.setContent(map);  
         }
       </script>
   
@@ -51,5 +50,5 @@
       async
     ></script>
   
-    <body onload="initMap()"></body>
+    <body onload="initialize()"></body>
 </html>
