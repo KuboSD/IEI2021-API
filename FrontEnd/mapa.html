@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Add Map</title>
+    <title>Mapa</title>
 
     <style type="text/css">
       /* Set the size of the div element that contains the map */
@@ -13,42 +13,65 @@
       }
     </style>
     <script>
-      // Initialize and add the map
-      function initMap() {
-        const madrid = { lat: 40.416729, lng: -3.703339 };
-        const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 6,
-          center: madrid,
-        });
-      }
+      function initialize(){
+        let mapProp = {
+        center: new google.maps.LatLng(40.416729, -3.703339),
+        zoom: 5.5,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+        map = new google.maps.Map(document.getElementById('map'), mapProp);
+        var infowindow = new google.maps.InfoWindow();
+    };
     </script>
     <script>
         // Initialize and add the map
         function addMarkers() {
-            const biblioteca1 = {latitud: 40.416729, longitud: -3.703339};
-            const biblioteca1 = {latitud: 40.616729, longitud: -3.603339};
-            const biblioteca1 = {latitud: 40.216729, longitud: -3.503339};
-            const resultados = {biblioteca1, biblioteca2, biblioteca3};
+            const biblioteca1 = [40.416729,  -3.703339];
+            const biblioteca2 = [ 40.616729,  -3.603339];
+            const biblioteca3= [ 40.216729,  -3.503339];
+            const biblioteca4= [ null, null, 'VALÈNCIA'];
+            const resultados = [biblioteca1, biblioteca2, biblioteca3, biblioteca4];
+
             for (let i = 0; i < resultados.length; i++) {
-                markers[i] += {lat = resultados[i].latitud, lng = resultados[i].longitud};
-                new google.maps.Marker({
-                    position: markers[i],
-                    map: map,
-                });
-            }
-          
+              if(resultados[i][0] == null){
+                var geocoder = new google.maps.Geocoder();
+                address = resultados[i][2];
+                console.log('1');
+                //address = document.getElementById('search').value;
+                if(address!=''){
+                  console.log('2');
+                  geocoder.geocode({'address': address}, function(results, status)
+                  {
+                    if (status == 'OK')
+                    {
+                      console.log('3');
+                      var marker = new google.maps.Marker({
+                          map: map,
+                          position: results[0].geometry.location
+                      });
+                      //resultados[i][0] = results[0].geometry.location.lat();
+                      //resultados[i][1] = results[1].geometry.location.lng();
+                    }
+                  });
+                }
+              }
+              marker = new google.maps.Marker({
+              position: new google.maps.LatLng(resultados[i][0], resultados[i][1]),
+              map: map
+              });             
+            } 
+          infowindow.setContent(map);  
         }
       </script>
-  </head>
-  <body>
-    <h3>My Google Maps Demo</h3>
-    <!--The div element for the map -->
+  
+   
     <div id="map"></div>
     <button type="button" onclick="addMarkers()">Generar marcadores</button>
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+  
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnAfPHaB_nPgU7UujxvqF9WnlW-2TuINk&callback=initMap&libraries=&v=weekly"
       async
     ></script>
-  </body>
+  
+    <body onload="initialize()"></body>
 </html>
