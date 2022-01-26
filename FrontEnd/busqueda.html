@@ -10,11 +10,22 @@
         <form action="busqqueda" method="get">
             <p>Localidad: <input type="text" name="Localidad" size="40"></p>
             <p>Código postal: <input type="text" name="CP"></p>
-            <p>Provincia: <input type="text" name="Provincia" size="40"></p>
+            <p>Provincia: <select>
+                <option value="0">Todas</option>
+                <option value="1">Vizcaya</option> 
+                <option value="2">Alaba</option> 
+                <option value="3">Gipuzkoa</option>
+                <option value="4">Barcelona</option>
+                <option value="5">Girona</option>
+                <option value="6">Lleida,</option>
+                <option value="7">Tarragona</option>
+                <option value="8">Alicante</option>
+                <option value="9">Castellon</option>    
+            </select>
             <p>Tipo <select>
-                    <option value="1">Todas</option> 
-                    <option value="2">Publica </option> 
-                    <option value="3">Privada </option>
+                    <option value="todas">Todas</option> 
+                    <option value="public">Publica</option> 
+                    <option value="priv">Privada</option>
                 </select>
             </p>
             <button>Cancelar</button>
