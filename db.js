@@ -75,8 +75,33 @@ const xmlextractor = require('./extractores/XMLtoJSON')
     })
   }
 
+  function cleanDb(){
+    let connection = mysql.createPool({
+      host: dbConfig.HOST,
+      port: dbConfig.PORT,
+      user: dbConfig.USER,
+      password: dbConfig.PASSWORD,
+      database: dbConfig.DB
+    });
+    console.log('hola1')
+    let query = 'DELETE FROM biblioteca;'
+    connection.getConnection((error, connect) => {
+      if(error){
+        throw error;
+      }
+      connection.query(query, (err) => {
+        if(err){
+          throw err;
+        }
+        console.log('hola2')
+      })
+      connect.release();
+    });
+  }
+
   module.exports = {
     loadCat,
     loadCv,
-    loadEus
+    loadEus,
+    cleanDb
   }

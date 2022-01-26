@@ -6,7 +6,6 @@ function XMLtoJSON(){
     let JSONConverted = convert.xml2json(xmlString, {compact: true, spaces: 4});
     fs.writeFile('./resultJson/CAT.json.response.row', JSONConverted, (err) => {
         if (err) throw err;
-        console.log('Data written to file');
     });
     return JSON.parse(JSONConverted);
 }
@@ -17,7 +16,7 @@ function queryCAT(){
     let query = [];
     let isDuplicated;
     //let catjson = JSON.stringify(json);
-    console.log(json.response.row.length);
+
 
     for(let i = 0; i<json.response.row.length; i++){
         for(let j = 0; j<i; j++){
@@ -26,7 +25,6 @@ function queryCAT(){
             }
         }
         if(!isDuplicated){
-            console.log(json.response.row[i])
             nombre = "'" + json.response.row[i].nom._text+"'";
             tipo = "'" + json.response.row[i].categoria._text+"'";
             direccion = "'" + json.response.row[i].via._text+"'";

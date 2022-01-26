@@ -3,6 +3,7 @@
     <head>
         <title>Carga de bibliotecas</title>
         <link rel="stylesheet" href="carga.css">
+        <script src="carga.js"></script>
     </head>
     <body>
         <div class="main-container">
@@ -12,19 +13,19 @@
             <div class="content-container">
                 <div class="input-container">
                     <div class="catalunya-input-container">
-                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <input type="checkbox" id="cat-checkbox">
                         <label> Cataluña</label>
                     </div>
                     <div class="cv-input-container">
-                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <input type="checkbox" id="cv-checkbox">
                         <label>Comunitat Valenciana</label>
                     </div>
                     <div class="euskadi-input-container">
-                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <input type="checkbox" id="eus-checkbox">
                         <label> Euskadi</label>
                     </div>
                     <div class="button-input-container">
-                        <input type="button" value="Cargar"> </input>
+                        <input type="button" value="Cargar" id="load-button" onclick="load();"></input>
                     </div>
                 </div>
                 <div class="result-container">
