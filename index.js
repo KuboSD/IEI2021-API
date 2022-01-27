@@ -16,31 +16,43 @@ app.use(express.urlencoded({ extended: true }));
 
 // simple route
 app.get("/loadcv", (req, res) => {
-  db.loadCv();
-  return res.status(200).send({
-    message: 'Bibliotecas Comunidad Valenciana subidas correctamente'
-  })
+  let result = db.loadCv();
+  setTimeout(()=>{
+    console.log(result)
+    return res.status(200).send({
+      message: result
+    })
+  },50)
 });
 
 app.get("/loadeus", (req, res) => {
-  db.loadEus();
-  return res.status(200).send({
-    message: 'Bibliotecas Euskadi subidas correctamente'
-  })
+  let result = db.loadEus();
+  setTimeout(()=>{
+    console.log(result)
+    return res.status(200).send({
+      message: result
+    })
+  },50)
 });
 
 app.get("/loadcat", (req, res) => {
-  db.loadCat();
-  res.status(200).send({
-    message: 'Bibliotecas Cataluña subidas correctamente'
-  })
+  let result = db.loadCat();
+  setTimeout(()=>{
+    console.log(result)
+    return res.status(200).send({
+      message: result
+    })
+  },50)
 });
 
 app.get("/cleandb", (req, res) => {
-  db.cleanDb();
-  return res.status(200).send({
-    message: 'BD Limpia'
-  });
+  result = db.cleanDb();
+  setTimeout(()=>{
+    console.log(result)
+    return res.status(200).send({
+      message: result
+    })
+  },50)
 })
 
 

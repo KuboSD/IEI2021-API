@@ -17,12 +17,15 @@ const xmlextractor = require('./extractores/XMLtoJSON')
     queryToDb = jsonExtractor.readJson();
     connection.getConnection((error, connect) => {
       for(let i in queryToDb){
-        connection.query(queryToDb[i], (err) => {
+        connection.query(queryToDb[i], (err, result) => {
           if(err){
             throw err;
           }
+        return result.affectedRows + ' ROWS have been inserted.'
         })
+        
       }
+      
       connect.release();
     })
   }
@@ -41,7 +44,7 @@ const xmlextractor = require('./extractores/XMLtoJSON')
         throw error;
       }
       for(let i in queryToDb){
-        connection.query(queryToDb[i], (err) => {
+        connection.query(queryToDb[i], (err, result) => {
           if(err){
             throw err;
           }
@@ -65,7 +68,7 @@ const xmlextractor = require('./extractores/XMLtoJSON')
         throw error;
       }
       for(let i in queryToDb){
-        connection.query(queryToDb[i], (err) => {
+        connection.query(queryToDb[i], (err, result) => {
           if(err){
             throw err;
           }
@@ -83,20 +86,19 @@ const xmlextractor = require('./extractores/XMLtoJSON')
       password: dbConfig.PASSWORD,
       database: dbConfig.DB
     });
-    console.log('hola1')
     let query = 'DELETE FROM biblioteca;'
     connection.getConnection((error, connect) => {
       if(error){
-        throw error;
+        throw error
       }
-      connection.query(query, (err) => {
+      connection.query(query, (err, result) => {
         if(err){
-          throw err;
+          throw error
         }
-        console.log('hola2')
       })
       connect.release();
     });
+    
   }
 
   module.exports = {
