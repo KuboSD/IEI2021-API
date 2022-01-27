@@ -9,9 +9,10 @@ function load(){
         xmlHttpClean.send(null);
         xmlHttpClean.onreadystatechange = function(){
             if(xmlHttpClean.readyState == 4){
+                console.log(xmlHttpClean.responseText.message)
                 setTimeout(() => {
                     loadDatas(cvSelected, eusSelected, catSelected)
-                }, 1000)
+                }, 20)
             }
         }
     }
@@ -24,15 +25,16 @@ function loadDatas(cvSelected, eusSelected, catSelected){
         xmlHttpEus.open("GET", 'http://localhost:8082/loadeus')
         xmlHttpEus.send(null);
         xmlHttpEus.onreadystatechange = function(){
-            console.log(xmlHttpEus.responseText)
+            console.log(xmlHttpEus.responseText.message)
         }
+        document.getElementById('textarea')
     }
     if(catSelected){
         let xmlHttpCat = new XMLHttpRequest();
         xmlHttpCat.open("GET", 'http://localhost:8082/loadcat')
         xmlHttpCat.send(null);
         xmlHttpCat.onreadystatechange = function(){
-            console.log(xmlHttpCat.responseText)
+            console.log(xmlHttpCat.responseText.message)
         }
     }
     if(cvSelected){
@@ -40,7 +42,7 @@ function loadDatas(cvSelected, eusSelected, catSelected){
         xmlHttpCV.open("GET", 'http://localhost:8082/loadcv')
         xmlHttpCV.send(null);
         xmlHttpCV.onreadystatechange = function(){
-            console.log(xmlHttpCV.responseText)
+            console.log(xmlHttpCV.responseText.message)
         }
     }
 }
