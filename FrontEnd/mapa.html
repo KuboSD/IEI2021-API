@@ -26,25 +26,40 @@
     <script>
         // Initialize and add the map
         function addMarkers() {
-            const biblioteca1 = [40.416729,  -3.703339];
-            const biblioteca2 = [ 40.616729,  -3.603339];
-            const biblioteca3= [ 40.216729,  -3.503339];
-            const biblioteca4= [ null, null, 'VALÈNCIA'];
-            const resultados = [biblioteca1, biblioteca2, biblioteca3, biblioteca4];
-
-            for (let i = 0; i < resultados.length; i++) {
+          let xmlHttp = new XMLHttpRequest();
+          let resultados = [];
+          
+          
+          let result = JSON.parse(localStorage.getItem('filterResult'))
+          console.log(result)
+              for (let i = 0; i < result.length; i++) {
+                if(result[i].latitude == null){
+                  if(result[i].latitud == null){
+                    result[i].direccion = result[i].direccion.concat(' Valencia')
+                  }
+                  resultados.push([result[i].latitud, result[i].longitud, result[i].direccion])
+          }
+        }
+          
+         
+          let mapProp = {
+            center: new google.maps.LatLng(40.416729, -3.703339),
+            zoom: 5.5,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+            }; 
+            let map = new google.maps.Map(document.getElementById('map'), mapProp);
+            let infowindow = new google.maps.InfoWindow()
+            setTimeout(()=>{
+              for (let i = 0; i < resultados.length; i++) {
               if(resultados[i][0] == null){
                 var geocoder = new google.maps.Geocoder();
                 address = resultados[i][2];
-                console.log('1');
                 //address = document.getElementById('search').value;
                 if(address!=''){
-                  console.log('2');
                   geocoder.geocode({'address': address}, function(results, status)
                   {
                     if (status == 'OK')
                     {
-                      console.log('3');
                       var marker = new google.maps.Marker({
                           map: map,
                           position: results[0].geometry.location
@@ -56,10 +71,14 @@
                 }
               }
               marker = new google.maps.Marker({
-              position: new google.maps.LatLng(resultados[i][0], resultados[i][1]),
-              map: map
+                position: new google.maps.LatLng(resultados[i][0], resultados[i][1]),
+                map: map
               });             
-            } 
+            }
+            }, 50)
+
+            
+            
           infowindow.setContent(map);  
         }
       </script>

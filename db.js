@@ -6,7 +6,7 @@ const csvextractor = require('./extractores/CSVtoSQL')
 const xmlextractor = require('./extractores/XMLtoJSON')
 const queryBusqueda = require('./ScriptsJS_HTML/ScriptsConsulta/queryBusqueda')
 
-  function loadEus(){
+  function loadEus(req, res){
     let connection = mysql.createPool({
       host: dbConfig.HOST,
       port: dbConfig.PORT,
@@ -21,16 +21,18 @@ const queryBusqueda = require('./ScriptsJS_HTML/ScriptsConsulta/queryBusqueda')
           if(err){
             throw err;
           }
-        return result.affectedRows + ' ROWS have been inserted.'
         })
         
       }
       
       connect.release();
+      return res.status(200).send({
+        message: 'ok'
+      })
     })
   }
 
-  function loadCat(){
+  function loadCat(req, res){
     let connection = mysql.createPool({
       host: dbConfig.HOST,
       port: dbConfig.PORT,
@@ -50,11 +52,15 @@ const queryBusqueda = require('./ScriptsJS_HTML/ScriptsConsulta/queryBusqueda')
           }
         })
       }
+      
       connect.release();
+      return res.status(200).send({
+        message: 'ok'
+      })
     });
   }
 
-  function loadCv(){
+  function loadCv(req, res){
     let connection = mysql.createPool({
       host: dbConfig.HOST,
       port: dbConfig.PORT,
@@ -71,15 +77,22 @@ const queryBusqueda = require('./ScriptsJS_HTML/ScriptsConsulta/queryBusqueda')
         connection.query(queryToDb[i], (err, result) => {
           if(err){
             throw err;
-          }
+          }  
         }) 
       }
       connect.release();
+      return res.status(200).send({
+        message: 'OK'
+      })
     });
   }
 
-  function searchDB(enLocalidad, codigoPostal, provincia , tipo){
-    let finalresult = ''
+  function searchDB(req, res){
+    let parametros = cleanParams(req.params);
+    let enLocalidad = parametros.enLocalidad;
+    let codigoPostal = parametros.codigoPostal;
+    let provincia = parametros.provincia;
+    let tipo = parametros.tipo;
     let connection = mysql.createPool({
       host: dbConfig.HOST,
       port: dbConfig.PORT,
@@ -96,16 +109,17 @@ const queryBusqueda = require('./ScriptsJS_HTML/ScriptsConsulta/queryBusqueda')
         if(err){
           throw err;
         }
-        finalresult = result;
+        connect.release();
+        return res.status(200).send({
+          message: result
+        })
       })
-      connect.release();
+      
     });
-    setTimeout(()=>{
-      return finalresult
-    }, 50)
+
   }
 
-  function cleanDb(){
+  function cleanDb(req, res){
     let connection = mysql.createPool({
       host: dbConfig.HOST,
       port: dbConfig.PORT,
@@ -122,10 +136,28 @@ const queryBusqueda = require('./ScriptsJS_HTML/ScriptsConsulta/queryBusqueda')
         if(err){
           throw error
         }
+        return res.status(200).send({
+          message: 'chupame un pie'
+        })
       })
       connect.release();
     });
     
+  }
+
+  function cleanParams(params){
+    let enLocalidad = params.enLocalidad.substring(12)
+    let codigoPostal = params.codigoPostal.substring(13)
+    let provincia = params.provincia.substring(10)
+    let tipo = params.tipo.substring(5)
+    
+    let finalParams = {
+      enLocalidad: enLocalidad,
+      codigoPostal: codigoPostal,
+      provincia: provincia,
+      tipo: tipo
+    }
+    return finalParams;
   }
 
   module.exports = {

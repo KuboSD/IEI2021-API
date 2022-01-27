@@ -1,11 +1,11 @@
 function definirQuery(enLocalidad, codigoPostal, provincia , tipo){
   
-    let query = 'Select nombre, longitud, latitud FROM biblioteca';
+    let query = 'Select nombre, longitud, latitud, direccion FROM biblioteca';
     
     if(!enLocalidad == '' || !codigoPostal == '' || !provincia == '' || !tipo == ''){
       query += ' WHERE ';
         if (!enLocalidad == '' ){
-          query += 'CONTAINS(enLocalidad, "'+ enLocalidad +'") ';
+          query += 'nombre LIKE "%'+enLocalidad+'%"';
           if(!codigoPostal == '' ||!provincia == '' || !tipo == ''){
             if (!codigoPostal == ''){
               query += ' AND ';
@@ -17,7 +17,7 @@ function definirQuery(enLocalidad, codigoPostal, provincia , tipo){
             }
             if (!tipo == ''){
               query += ' AND ';
-              query += '(CONTAINS(descripcion, '+ tipo +') OR CONTAINS(tipo, '+ tipo +'))';
+              query += '(tipo LIKE "%'+tipo+'%" OR descripcion LIKE "%'+tipo+'%")';
             }
           }
         }
@@ -29,20 +29,20 @@ function definirQuery(enLocalidad, codigoPostal, provincia , tipo){
           }
           if (!tipo == '' ){
             query += ' AND ';
-            query += '(CONTAINS(descripcion, '+ tipo +') OR CONTAINS(tipo, '+ tipo +'))';
+            query += '(tipo LIKE "%'+tipo+'%" OR descripcion LIKE "%'+tipo+'%")';
           }
         }
         if (!provincia == '' && enLocalidad == '' && codigoPostal == ''){
           query += 'codigopostal LIKE "'+ provincia +'%"  ';
           if (!tipo == '' ){
             query += ' AND ';
-            query += '(CONTAINS(descripcion, '+ tipo +') OR CONTAINS(tipo, '+ tipo +'))';
+            query += '(tipo LIKE "%'+tipo+'%" OR descripcion LIKE "%'+tipo+'%")';
           }
         }
         if (!tipo == '' && enLocalidad == '' && codigoPostal == '' && provincia == ''){
-          query += '(CONTAINS(descripcion, '+ tipo +') OR CONTAINS(tipo, '+ tipo +'))';
+          query += '(tipo LIKE "%'+tipo+'%" OR descripcion LIKE "%'+tipo+'%")';
         }
-        query += ' FOR JSON AUTO ';
+        //query += ' FOR JSON AUTO ';
     
   }
   return query;

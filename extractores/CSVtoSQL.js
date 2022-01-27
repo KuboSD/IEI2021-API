@@ -30,7 +30,6 @@ function excelToJson(){
 function jsonToQuery(){
     json = excelToJson()
     json.pop()
-    console.log(json)
     for(let i = 0; i<json.length; i++){
         nombre = "'" + json[i].NOMBRE+"'";
         tipo = "'"+json[i].TIPO+"'";

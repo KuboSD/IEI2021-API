@@ -41,15 +41,22 @@ function search(){
     // console.log(codigoPostal.toString());
     
 
-    let xmlHttpClean = new XMLHttpRequest();
-    xmlHttpClean.open("GET", 'http://localhost:8082/search/' + params)
-    xmlHttpClean.setRequestHeader('Content-type', 'application/json')
-    xmlHttpClean.send(null) // Make sure to stringify
-    xmlHttpClean.onreadystatechange = function() {
+    let xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", 'http://localhost:8082/search/' + params)
+    xmlHttp.setRequestHeader('Content-type', 'application/json')
+    xmlHttp.send(null) // Make sure to stringify
+    xmlHttp.onreadystatechange = function() {
         // Do whatever with response
         //TO DO mostrar datos
-        if(xmlHttpClean.readyState == 4 && xmlHttpClean.status == 200){
-            console.log(xmlHttpClean.response);
+        if(xmlHttp.readyState == 4 && xmlHttp.status == 200){
+            let result = JSON.parse(xmlHttp.response)
+                let value = '';
+                for (let i = 0; i < result.message.length; i++) {
+                     value += 'Added: ' + result.message[i].nombre + '\n';
+                }
+                document.getElementById('textarea').value = value;
+                localStorage.setItem('filterResult', JSON.stringify(result.message))
+                console.log(localStorage.getItem('filterResult'))
         }
         
     }

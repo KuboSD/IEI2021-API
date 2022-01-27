@@ -25,7 +25,6 @@ function loadDatas(cvSelected, eusSelected, catSelected){
         xmlHttpEus.open("GET", 'http://localhost:8082/loadeus')
         xmlHttpEus.send(null);
         xmlHttpEus.onreadystatechange = function(){
-            console.log(xmlHttpEus.responseText.message)
         }
         document.getElementById('textarea')
     }
@@ -34,7 +33,6 @@ function loadDatas(cvSelected, eusSelected, catSelected){
         xmlHttpCat.open("GET", 'http://localhost:8082/loadcat')
         xmlHttpCat.send(null);
         xmlHttpCat.onreadystatechange = function(){
-            console.log(xmlHttpCat.responseText.message)
         }
     }
     if(cvSelected){
@@ -42,7 +40,28 @@ function loadDatas(cvSelected, eusSelected, catSelected){
         xmlHttpCV.open("GET", 'http://localhost:8082/loadcv')
         xmlHttpCV.send(null);
         xmlHttpCV.onreadystatechange = function(){
-            console.log(xmlHttpCV.responseText.message)
+            if(xmlHttpCV.readyState == 4 && xmlHttpCV.status == 200){
+
+            }
         }
     }
+
+    setTimeout(()=>{
+        let params = "enLocalidad=" + '' + "&codigoPostal="
+        + '' + "&provincia=" + '' + "&tipo=" + ''
+        let xmlHttpResult = new XMLHttpRequest();
+        xmlHttpResult.open("GET", 'http://localhost:8082/search/' + params)
+        xmlHttpResult.send(null);
+        xmlHttpResult.onreadystatechange = function(){
+            if(xmlHttpResult.readyState == 4 && xmlHttpResult.status == 200){
+                let result = JSON.parse(xmlHttpResult.response)
+                console.log(result.message)
+                let value = '';
+                for (let i = 0; i < result.message.length; i++) {
+                     value += 'Added: ' + result.message[i].nombre + '\n';
+                }
+                document.getElementById('textarea').value = value;
+            }
+        }
+    },150)
 }

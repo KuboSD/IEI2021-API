@@ -2,50 +2,57 @@
 <html>
     <head> 
         <title>Buscador de bibliotecas</title>
+        <link rel="stylesheet" href="busqueda.css">
         <script src="busqueda.js"></script>
     </head> 
 
     <body>
+        <div class="title-container">
+            <h1>BUSQUEDA EN EL MAPA DE BIBLIOTECAS</h1>
+        </div>
+        <div class="main-container"> 
 
-        <form action="busqqueda" method="get">
-           <label for="Localidad: ">Localidad:</label> 
-           <input type ="text" id ="localidad"></input>
+        <div class="filters-container">
+            <form action="busqqueda" method="get">
+                <label for="Localidad: ">Localidad:</label> 
+                <input type ="text" id ="localidad"></input>
+     
+                <div></div>
+     
+                <label for="Codigo Postal: ">Código postal:</label> 
+                <input type ="text" id ="cp"></input>
+     
+                 <p>Provincia: <select id = "provincia">
+                     <option value="Todas">Todas</option>
+                     <option value="Vizcaya">Vizcaya</option> 
+                     <option value="Alaba">Alaba</option> 
+                     <option value="Gipuzkoa">Gipuzkoa</option>
+                     <option value="Barcelona">Barcelona</option>
+                     <option value="Girona">Girona</option>
+                     <option value="Lleida">Lleida</option>
+                     <option value="Tarragona">Tarragona</option>
+                     <option value="Alicante">Alicante</option>
+                     <option value="Castellon">Castellon</option>    
+                     <option value="Valencia">Valencia</option>
+                 </select>
+                 <p>Tipo <select id ="tipo">
+                         <option value="Todas">Todas</option> 
+                         <option value="Publi">Publica</option> 
+                         <option value="Privada">Privada</option>
+                     </select>
+                 </p>
+                 <input type="button" value="Buscar" onclick="search();" class="button-enviar">
+     
+             </form>
+     
+             <p>Resultados de la búsqueda:</p>
+             <textarea id="textarea" cols="60" rows="15"></textarea>
+        </div>
 
-           <div></div>
-
-           <label for="Codigo Postal: ">Código postal:</label> 
-           <input type ="text" id ="cp"></input>
-
-            <p>Provincia: <select id = "provincia">
-                <option value="Todas">Todas</option>
-                <option value="Vizcaya">Vizcaya</option> 
-                <option value="Alaba">Alaba</option> 
-                <option value="Gipuzkoa">Gipuzkoa</option>
-                <option value="Barcelona">Barcelona</option>
-                <option value="Girona">Girona</option>
-                <option value="Lleida">Lleida</option>
-                <option value="Tarragona">Tarragona</option>
-                <option value="Alicante">Alicante</option>
-                <option value="Castellon">Castellon</option>    
-                <option value="Valencia">Valencia</option>
-            </select>
-            <p>Tipo <select id ="tipo">
-                    <option value="Todas">Todas</option> 
-                    <option value="Publica">Publica</option> 
-                    <option value="Privada">Privada</option>
-                </select>
-            </p>
-            <input type="button" value="Buscar" onclick="search();" class="button-enviar">
-
-        </form>
-
-        <p>Resultados de la búsqueda:</p>
-        <textarea name="resultado" cols="60" rows="5"></textarea>
-
-        <div class = mapa>
+        <div class = "mapa">
          <iframe src="mapa.html"></iframe>
         </div> 
 
-
+        </div>
     </body>
 </html>    
