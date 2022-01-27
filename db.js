@@ -69,10 +69,34 @@ const xmlextractor = require('./extractores/XMLtoJSON')
           if(err){
             throw err;
           }
-        })
+        }) 
       }
       connect.release();
-    })
+    });
+  }
+
+  function searchDB(enLocalidad, codigoPostal, provincia , tipo){
+    let connection = mysql.createPool({
+      host: dbConfig.HOST,
+      port: dbConfig.PORT,
+      user: dbConfig.USER,
+      password: dbConfig.PASSWORD,
+      database: dbConfig.DB
+    });
+    console.log('hola1')
+    let queryToDb = //cosas.definirQuery(enLocalidad, codigoPostal, provincia , tipo);
+    connection.getConnection((error, connect) => {
+      if(error){
+        throw error;
+      }
+      connection.query(query, (err) => {
+        if(err){
+          throw err;
+        }
+        console.log('hola2')
+      })
+      connect.release();
+    });
   }
 
   function cleanDb(){
@@ -103,5 +127,6 @@ const xmlextractor = require('./extractores/XMLtoJSON')
     loadCat,
     loadCv,
     loadEus,
-    cleanDb
+    cleanDb,
+    searchDB
   }

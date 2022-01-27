@@ -2,7 +2,7 @@ var convert = require('xml-js');
 const fs = require('fs');
 
 function XMLtoJSON(){
-    var xmlString = fs.readFileSync('/home/alexginbo/Documentos/uni/iei/proyecto_practicas/IEI2021-API/Fuentes_de_datos/Archivos_demo/CAT.xml', 'utf8');
+    var xmlString = fs.readFileSync('./Fuentes_de_datos/Archivos_demo/CAT.xml', 'utf8');
     let JSONConverted = convert.xml2json(xmlString, {compact: true, spaces: 4});
     fs.writeFile('./resultJson/CAT.json.response.row', JSONConverted, (err) => {
         if (err) throw err;

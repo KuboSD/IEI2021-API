@@ -4,11 +4,16 @@
 
     <head> 
         Buscador de Bibliotecas
+        <script src="busqueda.js"></script>
     </head>
+ 
+    <body> 
 
-    <body>
-
-        <form action="busqqueda" method="get">
+        <form action="busqueda" method="get">
+            <div class="localidad-input-container">
+                <label> Localidad : </label>
+                <input type="text" id="lacalidad-textField" size="40">
+            </div>
             <p>Localidad: <input type="text" name="Localidad" size="40"></p>
             <p>Código postal: <input type="text" name="CP"></p>
             <p>Provincia: <select>
@@ -30,7 +35,9 @@
                 </select>
             </p>
             <button>Cancelar</button>
-            <button>Buscar</button>
+            <div class="button-input-container">
+                <input type="button" value="Buscar" id="search-button" onclick="searchDB();"></input>
+            </div>
         </form>
 
         <p>Resultados de la búsqueda:</p>

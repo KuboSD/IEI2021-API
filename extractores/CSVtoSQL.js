@@ -1,6 +1,6 @@
 'use strict';
 
-const csv = '/home/alexginbo/Documentos/uni/iei/proyecto_practicas/IEI2021-API/Fuentes_de_datos/Archivos_demo/CV.csv'
+const csv = './Fuentes_de_datos/Archivos_demo/CV.csv'
 const fs = require('fs')
 let data, json;
 let nombre, tipo, direccion, codigoPostal, longitud, latitud, telefono, email, descripcion, codLocalidad;
@@ -22,7 +22,7 @@ function excelToJson(){
         }
   
         result.push(obj);
-        fs.writeFileSync('/home/alexginbo/Documentos/uni/iei/proyecto_practicas/IEI2021-API/resultJson/cv.json', JSON.stringify(result))
+        fs.writeFileSync('./resultJson/cv.json', JSON.stringify(result))
     }
     return result;
 }
