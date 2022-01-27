@@ -1,5 +1,6 @@
 const express = require("express");
-const db = require("./db")
+const db = require("./db");
+const busquedaJS = require("./ScriptsJS_HTML/ScriptsConsulta/queryBusqueda");
 const app = express();
 
 
@@ -42,6 +43,13 @@ app.get("/cleandb", (req, res) => {
     message: 'BD Limpia'
   });
 })
+
+app.get("/search", (req, res) => {
+  db.searchDB(busquedaJS.enLocalidad, busquedaJS.codigoPostal, busquedaJS.provincia, busquedaJS.tipo);
+  return res.status(200).send({
+    message: 'Buscando..'
+  })
+});
 
 
 // set port, listen for requests
