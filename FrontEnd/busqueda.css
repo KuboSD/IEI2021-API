@@ -6,3 +6,10 @@
     align-items: flex-end;
     justify-content: end;
 }
+.title-container{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
