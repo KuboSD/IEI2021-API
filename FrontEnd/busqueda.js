@@ -23,30 +23,35 @@ function getCPPrefix(aux){
 
 
 function search(){
-    let provincia = getCPPrefix(provinciaAux);
-
-    const params = {
-        enLocalidad = document.getElementById('localidad').value,
-        codigoPostal = document.getElementById('cp').value,
-        provincia = getCPPrefix(provinciaAux),
-        tipo = document.getElementById('tipo').value,
+    let enLocalidad = document.getElementById('localidad').value
+    let codigoPostal = document.getElementById('cp').value
+    let provincia = getCPPrefix(document.getElementById('provincia').value)
+    let tipo = document.getElementById('tipo').value
+    if(tipo == 'Todas'){
+        tipo = ''
     }
+
+    let params = "enLocalidad=" + enLocalidad + "&codigoPostal="
+        + codigoPostal + "&provincia=" + provincia + "&tipo=" + tipo
 
     // console.log(enLocalidad.toString());
     // console.log(provinciaAux.toString());
     // console.log(provincia.toString());
     // console.log(tipo.toString());
     // console.log(codigoPostal.toString());
+    
 
     let xmlHttpClean = new XMLHttpRequest();
-    xmlHttpClean.open("POST", 'http://localhost:8082/search')
-    http.setRequestHeader('Content-type', 'application/json')
-    http.send(JSON.stringify(params)) // Make sure to stringify
-    http.onload = function() {
+    xmlHttpClean.open("GET", 'http://localhost:8082/search/' + params)
+    xmlHttpClean.setRequestHeader('Content-type', 'application/json')
+    xmlHttpClean.send(null) // Make sure to stringify
+    xmlHttpClean.onreadystatechange = function() {
         // Do whatever with response
         //TO DO mostrar datos
-        console.log(http.responseText);
-        alert(http.responseText)
+        if(xmlHttpClean.readyState == 4 && xmlHttpClean.status == 200){
+            console.log(xmlHttpClean.response);
+        }
+        
     }
 }
 

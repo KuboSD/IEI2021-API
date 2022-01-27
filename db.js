@@ -4,6 +4,7 @@ const dbConfig = require("./db.config");
 const jsonExtractor = require('./extractores/JSONtoSQL')
 const csvextractor = require('./extractores/CSVtoSQL')
 const xmlextractor = require('./extractores/XMLtoJSON')
+const queryBusqueda = require('./ScriptsJS_HTML/ScriptsConsulta/queryBusqueda')
 
   function loadEus(){
     let connection = mysql.createPool({
@@ -78,6 +79,7 @@ const xmlextractor = require('./extractores/XMLtoJSON')
   }
 
   function searchDB(enLocalidad, codigoPostal, provincia , tipo){
+    let finalresult = ''
     let connection = mysql.createPool({
       host: dbConfig.HOST,
       port: dbConfig.PORT,
@@ -85,20 +87,22 @@ const xmlextractor = require('./extractores/XMLtoJSON')
       password: dbConfig.PASSWORD,
       database: dbConfig.DB
     });
-    console.log('hola11')
-    let query = queryToLocalidades.definirQuery(enLocalidad, codigoPostal, provincia , tipo);
+    let query = queryBusqueda.definirQuery(enLocalidad, codigoPostal, provincia , tipo);
     connection.getConnection((error, connect) => {
       if(error){
         throw error;
       }
-      connection.query(query, (err) => {
+      connection.query(query, (err, result) => {
         if(err){
           throw err;
         }
-        console.log('hola2')
+        finalresult = result;
       })
       connect.release();
     });
+    setTimeout(()=>{
+      return finalresult
+    }, 50)
   }
 
   function cleanDb(){
