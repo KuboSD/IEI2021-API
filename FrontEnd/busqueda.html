@@ -9,35 +9,39 @@
  
     <body> 
 
-        <form action="busqueda" method="get">
-            <div class="localidad-input-container">
-                <label> Localidad : </label>
-                <input type="text" id="lacalidad-textField" size="40">
-            </div>
-            <p>Localidad: <input type="text" name="Localidad" size="40"></p>
-            <p>Código postal: <input type="text" name="CP"></p>
-            <p>Provincia: <select>
-                <option value="0">Todas</option>
-                <option value="1">Vizcaya</option> 
-                <option value="2">Alaba</option> 
-                <option value="3">Gipuzkoa</option>
-                <option value="4">Barcelona</option>
-                <option value="5">Girona</option>
-                <option value="6">Lleida</option>
-                <option value="7">Tarragona</option>
-                <option value="8">Alicante</option>
-                <option value="9">Castellon</option>    
+    <body>
+
+        <form action="busqqueda" method="get">
+           <label for="Localidad: ">Localidad:</label> 
+           <input type ="text" id ="localidad"></input>
+
+           <div></div>
+
+           <label for="Codigo Postal: ">Código postal:</label> 
+           <input type ="text" id ="cp"></input>
+
+            <p>Provincia: <select id = "provincia">
+                <option value="Todas">Todas</option>
+                <option value="Vizcaya">Vizcaya</option> 
+                <option value="Alaba">Alaba</option> 
+                <option value="Gipuzkoa">Gipuzkoa</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Girona">Girona</option>
+                <option value="Lleida">Lleida</option>
+                <option value="Tarragona">Tarragona</option>
+                <option value="Alicante">Alicante</option>
+                <option value="Castellon">Castellon</option>    
+                <option value="Valencia">Valencia</option>
             </select>
-            <p>Tipo <select>
-                    <option value="todas">Todas</option> 
-                    <option value="public">Publica</option> 
-                    <option value="priv">Privada</option>
+            <p>Tipo <select id ="tipo">
+                    <option value="Todas">Todas</option> 
+                    <option value="Publica">Publica</option> 
+                    <option value="Privada">Privada</option>
                 </select>
             </p>
             <button>Cancelar</button>
-            <div class="button-input-container">
-                <input type="button" value="Buscar" id="search-button" onclick="searchDB();"></input>
-            </div>
+            <input type="button" value="Buscar" onclick="consultar()" class="button-enviar">
+
         </form>
 
         <p>Resultados de la búsqueda:</p>
@@ -46,6 +50,20 @@
         <div class = mapa>
          <iframe src="mapa.html"></iframe>
         </div> 
+
+        <script>
+            function consultar(){
+
+                let local = document.getElementById('localidad').value;
+                let cp = document.getElementById('cp').value;
+                let prv = document.getElementById('provincia').value;
+                let type = document.getElementById('tipo').value;
+
+                console.log(`el año es: ${local} el mes es ${cp}  el dia es: ${prv} y tipo ${type}`)
+            }   
+        </script>
+
+
     </body>
     
         
