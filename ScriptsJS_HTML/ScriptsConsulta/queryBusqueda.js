@@ -1,5 +1,6 @@
 function definirQuery(enLocalidad, codigoPostal, provincia , tipo){
-    let query = 'Select * FROM biblioteca';
+  console.log('hola22')
+    let query = 'Select nombre, longitud, latitud FROM biblioteca';
     if(!enLocalidad == '' || !codigoPostal == '' || !provincia == '' || !tipo == ''){
       query += ' WHERE ';
         if (!enLocalidad == '' ){
@@ -40,6 +41,7 @@ function definirQuery(enLocalidad, codigoPostal, provincia , tipo){
         if (!tipo == '' && enLocalidad == '' && codigoPostal == '' && provincia == ''){
           query += '(CONTAINS(descripcion, '+ tipo +') OR CONTAINS(tipo, '+ tipo +'))';
         }
+        query += ' FOR JSON AUTO ';
     return query;
   }
 }

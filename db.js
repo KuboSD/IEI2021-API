@@ -2,7 +2,6 @@ const { query } = require("express");
 const mysql = require("mysql");
 const dbConfig = require("./db.config");
 const jsonExtractor = require('./extractores/JSONtoSQL')
-const queryToLocalidades = require('./extractores/queryBusqueda')
 const csvextractor = require('./extractores/CSVtoSQL')
 const xmlextractor = require('./extractores/XMLtoJSON')
 
@@ -83,8 +82,8 @@ const xmlextractor = require('./extractores/XMLtoJSON')
       password: dbConfig.PASSWORD,
       database: dbConfig.DB
     });
-    console.log('hola1')
-    let queryToDb = queryToLocalidades.definirQuery(enLocalidad, codigoPostal, provincia , tipo);
+    console.log('hola11')
+    let query = queryToLocalidades.definirQuery(enLocalidad, codigoPostal, provincia , tipo);
     connection.getConnection((error, connect) => {
       if(error){
         throw error;
@@ -107,7 +106,6 @@ const xmlextractor = require('./extractores/XMLtoJSON')
       password: dbConfig.PASSWORD,
       database: dbConfig.DB
     });
-    console.log('hola1')
     let query = 'DELETE FROM biblioteca;'
     connection.getConnection((error, connect) => {
       if(error){
@@ -117,7 +115,6 @@ const xmlextractor = require('./extractores/XMLtoJSON')
         if(err){
           throw err;
         }
-        console.log('hola2')
       })
       connect.release();
     });

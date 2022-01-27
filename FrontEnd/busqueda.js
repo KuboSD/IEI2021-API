@@ -1,5 +1,6 @@
 
 let mapCPtoProvincia = [
+    {clave:'', valor: "Todas"},
     {clave:1, valor:"Alaba"},
     {clave:20, valor:"Gipuzkoa"},
     {clave:48, valor: "Vizcaya"},
@@ -12,16 +13,40 @@ let mapCPtoProvincia = [
     {clave:43, valor: "Tarragona"}
 ];
 
-console.log(mapCPtoProvincia);
+function getCPPrefix(aux){
+    for (let i = 0; i < mapCPtoProvincia.length; i++) {
+        if(mapCPtoProvincia[i].valor == aux){
+            return mapCPtoProvincia[i].clave;
+        }
+    }
+}
+
 
 function search(){
-    let enLocalidad = document.getElementById('localidad');
-    let codigoPostal = document.getElementById('cp');
-    let provincia= document.getElementById('provincia');
-    let tipo = document.getElementById('tipo');
+    let provincia = getCPPrefix(provinciaAux);
+
+    const params = {
+        enLocalidad = document.getElementById('localidad').value,
+        codigoPostal = document.getElementById('cp').value,
+        provincia = getCPPrefix(provinciaAux),
+        tipo = document.getElementById('tipo').value,
+    }
+
+    // console.log(enLocalidad.toString());
+    // console.log(provinciaAux.toString());
+    // console.log(provincia.toString());
+    // console.log(tipo.toString());
+    // console.log(codigoPostal.toString());
 
     let xmlHttpClean = new XMLHttpRequest();
-    xmlHttpClean.open("GET", 'http://localhost:8082/search')
-    xmlHttpClean.send(null);
+    xmlHttpClean.open("POST", 'http://localhost:8082/search')
+    http.setRequestHeader('Content-type', 'application/json')
+    http.send(JSON.stringify(params)) // Make sure to stringify
+    http.onload = function() {
+        // Do whatever with response
+        //TO DO mostrar datos
+        console.log(http.responseText);
+        alert(http.responseText)
+    }
 }
 

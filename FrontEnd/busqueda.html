@@ -40,7 +40,7 @@
                 </select>
             </p>
             <button>Cancelar</button>
-            <input type="button" value="Buscar" onclick="consultar()" class="button-enviar">
+            <input type="button" value="Buscar" onclick="search()" class="button-enviar">
 
         </form>
 
@@ -50,18 +50,6 @@
         <div class = mapa>
          <iframe src="mapa.html"></iframe>
         </div> 
-
-        <script>
-            function consultar(){
-
-                let local = document.getElementById('localidad').value;
-                let cp = document.getElementById('cp').value;
-                let prv = document.getElementById('provincia').value;
-                let type = document.getElementById('tipo').value;
-
-                console.log(`el año es: ${local} el mes es ${cp}  el dia es: ${prv} y tipo ${type}`)
-            }   
-        </script>
 
 
     </body>

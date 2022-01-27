@@ -45,10 +45,16 @@ app.get("/cleandb", (req, res) => {
 })
 
 app.get("/search", (req, res) => {
-  db.searchDB(busquedaJS.enLocalidad, busquedaJS.codigoPostal, busquedaJS.provincia, busquedaJS.tipo);
-  return res.status(200).send({
+  let parametros = req.params; 
+  console.log('Ejecutado Index')
+  res.status(200).send({
     message: 'Buscando..'
-  })
+  });
+  return res.json(db.searchDB(parametros[0], parametros[1], parametros[2], parametros[3]));
+  
+  //return res.json(db.searchDB(parametros.enLocalidad, parametros.codigoPostal, parametros.provincia, parametros.tipo));
+  
+  
 });
 
 
